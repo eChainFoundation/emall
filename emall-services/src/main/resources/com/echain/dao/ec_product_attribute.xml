@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.echain.dao.ProductAttributeDao" >
+  <resultMap id="BaseResultMap" type="com.echain.entity.ProductAttribute" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="product_id" property="productId" jdbcType="BIGINT" />
+    <result column="attribute_name" property="attributeName" jdbcType="VARCHAR" />
+    <result column="attribute_value" property="attributeValue" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="CHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, product_id, attribute_name, attribute_value, status
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from ec_product_attribute
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from ec_product_attribute
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.echain.entity.ProductAttribute" >
+    insert into ec_product_attribute (id, product_id, attribute_name, 
+      attribute_value, status)
+    values (#{id,jdbcType=BIGINT}, #{productId,jdbcType=BIGINT}, #{attributeName,jdbcType=VARCHAR}, 
+      #{attributeValue,jdbcType=VARCHAR}, #{status,jdbcType=CHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.echain.entity.ProductAttribute" >
+    insert into ec_product_attribute
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="productId != null" >
+        product_id,
+      </if>
+      <if test="attributeName != null" >
+        attribute_name,
+      </if>
+      <if test="attributeValue != null" >
+        attribute_value,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="productId != null" >
+        #{productId,jdbcType=BIGINT},
+      </if>
+      <if test="attributeName != null" >
+        #{attributeName,jdbcType=VARCHAR},
+      </if>
+      <if test="attributeValue != null" >
+        #{attributeValue,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=CHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.echain.entity.ProductAttribute" >
+    update ec_product_attribute
+    <set >
+      <if test="productId != null" >
+        product_id = #{productId,jdbcType=BIGINT},
+      </if>
+      <if test="attributeName != null" >
+        attribute_name = #{attributeName,jdbcType=VARCHAR},
+      </if>
+      <if test="attributeValue != null" >
+        attribute_value = #{attributeValue,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=CHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.echain.entity.ProductAttribute" >
+    update ec_product_attribute
+    set product_id = #{productId,jdbcType=BIGINT},
+      attribute_name = #{attributeName,jdbcType=VARCHAR},
+      attribute_value = #{attributeValue,jdbcType=VARCHAR},
+      status = #{status,jdbcType=CHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

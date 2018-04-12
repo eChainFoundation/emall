@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.echain.dao.ProductTransactionDao" >
+  <resultMap id="BaseResultMap" type="com.echain.entity.ProductTransaction" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="user_buyer_id" property="userBuyerId" jdbcType="BIGINT" />
+    <result column="user_buyer_name" property="userBuyerName" jdbcType="VARCHAR" />
+    <result column="user_seller_id" property="userSellerId" jdbcType="BIGINT" />
+    <result column="user_seller_name" property="userSellerName" jdbcType="VARCHAR" />
+    <result column="logistics_company_id" property="logisticsCompanyId" jdbcType="BIGINT" />
+    <result column="logistics_no" property="logisticsNo" jdbcType="VARCHAR" />
+    <result column="receiving_address_id" property="receivingAddressId" jdbcType="BIGINT" />
+    <result column="product_id" property="productId" jdbcType="BIGINT" />
+    <result column="product_name" property="productName" jdbcType="VARCHAR" />
+    <result column="product_price" property="productPrice" jdbcType="DECIMAL" />
+    <result column="status" property="status" jdbcType="CHAR" />
+    <result column="describe_text" property="describeText" jdbcType="VARCHAR" />
+    <result column="is_del" property="isDel" jdbcType="CHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, user_buyer_id, user_buyer_name, user_seller_id, user_seller_name, 
+    logistics_company_id, logistics_no, receiving_address_id, 
+    product_id, product_name, product_price, status, describe_text, is_del, create_time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from ec_product_transaction
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectProductTransactionByUserid" resultMap="BaseResultMap" parameterType="java.util.Map" >
+    select 
+    <include refid="Base_Column_List" />
+    from ec_product_transaction
+    where user_buyer_id = #{userBuyerId,jdbcType=BIGINT} and product_id = #{productId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from ec_product_transaction
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.echain.entity.ProductTransaction" >
+    insert into ec_product_transaction (id, user_buyer_id, user_buyer_name, 
+      user_seller_id, user_seller_name, logistics_company_id, logistics_no, receiving_address_id, 
+      product_id, product_name, product_price, 
+      status, describe_text, is_del, 
+      create_time)
+    values (#{id,jdbcType=BIGINT}, #{userBuyerId,jdbcType=BIGINT}, #{userBuyerName,jdbcType=VARCHAR}, 
+      #{userSellerId,jdbcType=BIGINT}, #{userSellerName,jdbcType=VARCHAR}, 
+      #{logisticsCompanyId,jdbcType=BIGINT}, #{logisticsNo,jdbcType=VARCHAR}, #{receivingAddressId,jdbcType=BIGINT}, 
+      #{productId,jdbcType=BIGINT}, #{productName,jdbcType=VARCHAR}, #{productPrice,jdbcType=DECIMAL}, 
+      #{status,jdbcType=CHAR}, #{describeText,jdbcType=VARCHAR}, #{isDel,jdbcType=CHAR}, 
+      #{createTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.echain.entity.ProductTransaction" >
+  	<selectKey resultType="long"  keyProperty="id">  
+ 	   SELECT LAST_INSERT_ID() 
+   	</selectKey> 
+    insert into ec_product_transaction
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="userBuyerId != null" >
+        user_buyer_id,
+      </if>
+      <if test="userBuyerName != null" >
+        user_buyer_name,
+      </if>
+      <if test="userSellerId != null" >
+        user_seller_id,
+      </if>
+      <if test="userSellerName != null" >
+        user_seller_name,
+      </if>
+      <if test="logisticsCompanyId != null" >
+        logistics_company_id,
+      </if>
+      <if test="logisticsNo != null" >
+        logistics_no,
+      </if>
+      <if test="receivingAddressId != null" >
+        receiving_address_id,
+      </if>
+      <if test="productId != null" >
+        product_id,
+      </if>
+      <if test="productName != null" >
+        product_name,
+      </if>
+      <if test="productPrice != null" >
+        product_price,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+      <if test="describeText != null" >
+        describe_text,
+      </if>
+      <if test="isDel != null" >
+        is_del,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="userBuyerId != null" >
+        #{userBuyerId,jdbcType=BIGINT},
+      </if>
+      <if test="userBuyerName != null" >
+        #{userBuyerName,jdbcType=VARCHAR},
+      </if>
+      <if test="userSellerId != null" >
+        #{userSellerId,jdbcType=BIGINT},
+      </if>
+      <if test="userSellerName != null" >
+        #{userSellerName,jdbcType=VARCHAR},
+      </if>
+      <if test="logisticsCompanyId != null" >
+        #{logisticsCompanyId,jdbcType=BIGINT},
+      </if>
+      <if test="logisticsNo != null" >
+        #{logisticsNo,jdbcType=VARCHAR},
+      </if>
+      <if test="receivingAddressId != null" >
+        #{receivingAddressId,jdbcType=BIGINT},
+      </if>
+      <if test="productId != null" >
+        #{productId,jdbcType=BIGINT},
+      </if>
+      <if test="productName != null" >
+        #{productName,jdbcType=VARCHAR},
+      </if>
+      <if test="productPrice != null" >
+        #{productPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=CHAR},
+      </if>
+      <if test="describeText != null" >
+        #{describeText,jdbcType=VARCHAR},
+      </if>
+      <if test="isDel != null" >
+        #{isDel,jdbcType=CHAR},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.echain.entity.ProductTransaction" >
+    update ec_product_transaction
+    <set >
+      <if test="userBuyerId != null" >
+        user_buyer_id = #{userBuyerId,jdbcType=BIGINT},
+      </if>
+      <if test="userBuyerName != null" >
+        user_buyer_name = #{userBuyerName,jdbcType=VARCHAR},
+      </if>
+      <if test="userSellerId != null" >
+        user_seller_id = #{userSellerId,jdbcType=BIGINT},
+      </if>
+      <if test="userSellerName != null" >
+        user_seller_name = #{userSellerName,jdbcType=VARCHAR},
+      </if>
+      <if test="logisticsCompanyId != null" >
+        logistics_company_id = #{logisticsCompanyId,jdbcType=BIGINT},
+      </if>
+      <if test="logisticsNo != null" >
+        logistics_no = #{logisticsNo,jdbcType=VARCHAR},
+      </if>
+      <if test="receivingAddressId != null" >
+        receiving_address_id = #{receivingAddressId,jdbcType=BIGINT},
+      </if>
+      <if test="productId != null" >
+        product_id = #{productId,jdbcType=BIGINT},
+      </if>
+      <if test="productName != null" >
+        product_name = #{productName,jdbcType=VARCHAR},
+      </if>
+      <if test="productPrice != null" >
+        product_price = #{productPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=CHAR},
+      </if>
+      <if test="describeText != null" >
+        describ_text = #{describeText,jdbcType=VARCHAR},
+      </if>
+      <if test="isDel != null" >
+        is_del = #{isDel,jdbcType=CHAR},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.echain.entity.ProductTransaction" >
+    update ec_product_transaction
+    set user_buyer_id = #{userBuyerId,jdbcType=BIGINT},
+      user_buyer_name = #{userBuyerName,jdbcType=VARCHAR},
+      user_seller_id = #{userSellerId,jdbcType=BIGINT},
+      user_seller_name = #{userSellerName,jdbcType=VARCHAR},
+      logistics_company_id = #{logisticsCompanyId,jdbcType=BIGINT},
+      logistics_no = #{logisticsNo,jdbcType=VARCHAR},
+      receiving_address_id = #{receivingAddressId,jdbcType=BIGINT},
+      product_id = #{productId,jdbcType=BIGINT},
+      product_name = #{productName,jdbcType=VARCHAR},
+      product_price = #{productPrice,jdbcType=DECIMAL},
+      status = #{status,jdbcType=CHAR},
+      describ_text = #{describeText,jdbcType=VARCHAR},
+      is_del = #{isDel,jdbcType=CHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

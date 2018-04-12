@@ -1,0 +1,100 @@
+html, body {height: 100%;}
+body {height: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 13px; margin: 0; padding: 0; background:#eaeaea url(../img/bg_body_left.png) repeat-y left; color: #666;}
+*{
+	margin:0;
+	padding:0;
+}
+	p {padding: 0; margin: 0;}
+	ul, li {list-style: none; padding: 0; margin: 0;}
+	img {border: none;}
+	h1, h2, h3, h4, h5 {padding: 0; margin: 0;}
+	.left {float: left;}
+	.right {float: right;}
+	.red {color: #C61B1B;}
+	.green {color: #98B22B; }
+	.smltxt {font-size: 11px;}
+	.hoverimg {background: #ccc; padding: 3px; float: left;}
+	.hoverimg:hover {cursor: pointer; background: #e4e4e4;}
+
+	/* Header Elements */
+	#leftside {width:100px; height: 100%; background: #525252 repeat-x top; position: absolute; top:0px; border-right:1px solid #fff; padding-top: 10px;}
+	
+	/* Top User Info Box */
+	#rightside {height: 100%;background:url(../images/24_02.jpg);position:relative} 
+	.title{
+		width:1176px;
+		height:107px;
+		background:url(../images/24_03.png);
+		left:8%;
+		top:12%;
+		position:absolute;
+		
+		}
+	.three{
+		background:url(../images/three_08.png);
+		width:1243px;
+		height:279px;
+		position:absolute;
+		left:5%;
+		top:38%;
+		position:relative;
+	}
+.enter1{
+		position:absolute;display:block;background:none;width:119px;height:33px;left:219px;top:153px;border:none
+	}
+.enter2 {
+position: absolute;
+display: block;
+background: none;
+width: 120px;
+height: 33px;
+left: 640px;
+top: 153px;
+border: none;
+}
+.enter3 {
+position: absolute;
+display: block;
+background: none;
+width: 120px;
+height: 33px;
+left: 1054px;
+top: 153px;
+border: none;
+}
+
+
+.a1{
+	width:395px;
+	height:256px;
+	background:none;
+	position:absolute;
+	left:8px;
+	top:8px;}
+.a1:hover{
+	border:solid 4px #fea201;
+}
+.a2{
+	width:398px;
+	height:257px;
+	background:none;
+	position:absolute;
+	left:420px;
+	top:7px;}
+.a2:hover{
+	border:solid 4px #a7ce64;
+}
+.a3{
+	width:395px;
+	height:256px;
+	background:none;
+	position:absolute;
+	left:832px;
+	top:8px;}
+.a3:hover{
+	border:solid 4px #4dbffe ;
+}
+
+
+
+

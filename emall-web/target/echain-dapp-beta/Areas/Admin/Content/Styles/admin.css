@@ -1,0 +1,141 @@
+BODY {MARGIN: 0px}
+P {
+	MARGIN: 0px
+}
+BODY {
+	COLOR: #000; BACKGROUND-COLOR: #fff
+}
+BODY {
+	FONT-SIZE: 12px; LINE-HEIGHT: 150%; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+TABLE {
+	FONT-SIZE: 12px; LINE-HEIGHT: 150%; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+INPUT {
+	FONT-SIZE: 12px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+SELECT {
+	FONT-SIZE: 12px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+TEXTAREA {
+	FONT-SIZE: 12px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+A:link {
+	COLOR: #036; /*TEXT-DECORATION: none*/
+}
+A:visited {
+	COLOR: #036; /*TEXT-DECORATION: none*/
+}
+A:hover {
+	COLOR: #f60; TEXT-DECORATION: underline
+}
+A.menuChild:link {
+	COLOR: #036; TEXT-DECORATION: none
+}
+A.menuChild:visited {
+	COLOR: #036; TEXT-DECORATION: none
+}
+A.menuChild:hover {
+	COLOR: #f60; TEXT-DECORATION: underline
+}
+A.menuParent:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+A.menuParent:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+A.menuParent:hover {
+	COLOR: #f60; TEXT-DECORATION: none
+}
+TABLE.position {
+	WIDTH: 100%
+}
+TR.position {
+	HEIGHT: 25px; BACKGROUND-COLOR: #f4f7fc
+}
+TD.position {
+	BORDER-RIGHT: #adceff 1px solid; PADDING-LEFT: 20px; BORDER-BOTTOM: #adceff 1px solid
+}
+TABLE.listTable {
+	WIDTH: 98%; BACKGROUND-COLOR: #b1ceee
+}
+TR.listHeaderTr {
+	FONT-WEIGHT: bold; HEIGHT: 25px; BACKGROUND-COLOR: #ebf4fd; TEXT-ALIGN: center
+}
+TR.listTr {
+	HEIGHT: 25px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center
+}
+TR.listAlternatingTr {
+	HEIGHT: 25px; BACKGROUND-COLOR: #fffdf0; TEXT-ALIGN: center
+}
+TR.listFooterTr {
+	HEIGHT: 30px; BACKGROUND-COLOR: #ebf4fd; TEXT-ALIGN: center
+}
+TABLE.editTable {
+	WIDTH: 98%; BACKGROUND-COLOR: #b1ceee
+}
+TR.editHeaderTr {
+	HEIGHT: 25px; BACKGROUND-COLOR: #ebf4fd
+}
+TD.editHeaderTd {
+	PADDING-LEFT: 50px; FONT-WEIGHT: bold
+}
+TR.editTr {
+	HEIGHT: 30px
+}
+TD.editLeftTd {
+	WIDTH: 150px; BACKGROUND-COLOR: #fffdf0; TEXT-ALIGN: center
+}
+TD.editRightTd {
+	PADDING-LEFT: 10px; BACKGROUND-COLOR: #fff
+}
+TR.editFooterTr {
+	HEIGHT: 40px; BACKGROUND-COLOR: #ebf4fd
+}
+TD.editFooterTd {
+	PADDING-LEFT: 150px
+}
+
+/*��ҳ�ؼ���ʽ*/
+.pages { color:red;font-weight:bold; font-size:11px;}
+.pages .item{padding: 1px 6px;font-size: 13px;} /*����ҳ������ʽ*/
+.pages .cpb {color:red;padding: 1px 6px;font-size: 13px;} /*��ǰҳ��ʽ*/
+.pages a { text-decoration:none;padding: 0 5px; border: 1px solid #ddd;margin:0 2px; color:#000;font-weight:normal;}
+.pages a:hover { background-color: #E61636; color:#fff;border:1px solid #E61636; text-decoration:none;font-weight:normal;}
+.pages input[type='text']{width:24px;}
+
+
+
+body, div, p, ul, ol, dl, dt, dd, li, form, input, table, img, h1, h2, h3, h4, h5, h6{margin:auto}
+BODY {margin-left:0px;margin-right:0px;  text-align:center;FONT-SIZE: 12px;COLOR: #000;LINE-HEIGHT: 1.5em;FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;background-color:#FFFFFF;}
+li {list-style-type: none;}
+
+h2{float:left;font-size:13px;}        
+        
+.divHeader{height:60px;width:100%;min-width:800px;float:left; background-image:url(/Areas/Admin/Content/images/header_bg.jpg);}
+.divHeader ul{padding-left:0;}
+.divHeader li{float:left;}
+   
+.ulHeader{}
+.ulHeader li{border:1px #ababab solid;border-left:0px;border-top:0px; font-weight:bold;}
+.ulContent li{border:1px #ababab solid;border-left:0px;border-top:0px;}
+.divContent{width:900px;float:left;}
+.divList{width:900px;float:left; border:0px; border-left:0px; border-right:0px; border-bottom:0px;}
+.divList ul{padding-left:0;}
+.divList li{float:left; height:40px;}    
+.divPager{width:880px;margin-left:10px;margin-top:10px;float:left;}
+    
+#divUserList li{width:178px;}  
+#divAdminList li{width:297px;}
+#divWithdrawList li{width:126px;}
+#divLogonInfoList li{width:222px;}
+#divLoanList li{width:130px;}
+
+#divAssertList0 li{width:222px;}
+#divAssertList1 li{width:222px;}
+#divAssertList2 li{width:222px;}
+#divAssertList3 li{width:222px;}
+
+#divUserDetail{float:left;width:940px; margin-left:20px;}
+#divUserDetail ul{border-top:1px solid #cbcbcb;}
+#divUserDetail li{float:left;width:300px; text-align:left; border-bottom:1px dotted #cbcbcb; line-height:25px;}

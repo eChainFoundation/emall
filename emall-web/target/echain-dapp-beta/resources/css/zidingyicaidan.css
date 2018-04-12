@@ -1,0 +1,750 @@
+@charset "utf-8";
+/*------------------------自己添加的样式---------------------------*/
+.Custom .CustomTop {
+    border-bottom: 1px dotted #D9D5D5;
+    display: inline;
+    float: left;
+    margin: 25px;
+    padding-bottom: 10px;
+    width: 730px;
+}
+.Custom .CustomChoose span {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.Custom .CustomPROOF .Btn-A .view_btn {
+    background:url(../images/bg.png) repeat-x scroll 0 -248px rgba(0, 0, 0, 0);
+}
+.Custom .CustomPROOF .view_btn {
+    border: medium none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-family: '微软雅黑';
+    font-size: 14px;
+    height: 24px;
+    line-height: 20px;
+    width: 106px;
+}
+.Custom .CustomPROOF {
+    float: right;
+    position: relative;
+    z-index: 99999;
+}
+.Custom .CustomLt {
+    background-image: url(../images/CustomLt.png);
+    float: left;
+    height: 410px;
+    padding: 185px 56px 18px 45px;
+    width: 255px;
+}
+.Custom .CustomLt2 {
+    float: left;
+    height: 47px;
+    width: 255px;
+}
+.Custom .CustomLt1 {
+    display: inline;
+    float: left;
+    height: 271px;
+    margin-left: 3px;
+    width: 240px;
+}
+.Custom .CustomLt2 li {
+    color: #333333;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    height: 47px;
+    line-height: 47px;
+    margin-left: 2px;
+    position: relative;
+    text-align: center;
+    width: 83px;
+}
+.Custom .CustomLt2 dl {
+    bottom: 55px;
+    left: 3px;
+    position: absolute;
+    width: 76px;
+}
+.Custom .CustomLt2 li .CustomDelete {
+    height: 7px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 7px;
+}
+.Custom .Initialize {
+    float: left;
+    margin-top: 200px;
+    width: 354px;
+}
+.Custom .Initialize span {
+    float: left;
+    height: 47px;
+    margin-top: 12px;
+    width: 47px;
+}
+.Custom .Initialize p {
+    display: inline;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 20px;
+    width: 260px;
+}
+.Custom .CustomFor {
+    background-color: #F4F4F4;
+    border-top: 1px solid #ECEBEB;
+    float: left;
+    padding: 30px 35px;
+    width: 710px;
+}
+.Custom .CustomFor dt {
+    color: #333333;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    width: 710px;
+}
+.Custom .CustomFor dd {
+    color: #666666;
+    float: left;
+    line-height: 24px;
+    margin-top: 20px;
+    width: 710px;
+}
+.Custom .CustomPROOF .view_btn .view_btn1 .view_btn_tu {
+    background: url(../images/tubiao.png) no-repeat scroll 0 -190px rgba(0, 0, 0, 0);
+    display: block;
+    height: 30px;
+    left: 85px;
+    position: absolute;
+    top: 8px;
+    width: 30px;
+}
+.Custom .CustomPROOF {
+    float: right;
+    position: relative;
+    z-index: 99999;
+}
+.Custom .CustomPROOF label {
+    cursor: pointer;
+    float: left;
+    height: 24px;
+    width: 106px;
+}
+a {
+    border: 0 none;
+    color: #000000;
+    text-decoration: none;
+}
+.Custom .CustomPROOF .Btn-A .view_btn {
+    background: url(../images/bg.png) repeat-x scroll 0 -248px rgba(0, 0, 0, 0);
+}
+.Custom .CustomPROOF .view_btn {
+    border: medium none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-family: '微软雅黑';
+    font-size: 14px;
+    height: 24px;
+    line-height: 20px;
+    width: 106px;
+}
+.Custom .CustomPROOF .view_btn .view_btn1 {
+    position: relative;
+}
+.Custom .CustomPROOF .view_btn .view_btn1 .view_btn_tu {
+    background: url(../images/tubiao.png) no-repeat scroll 0 -190px rgba(0, 0, 0, 0);
+    display: block;
+    height: 30px;
+    left: 85px;
+    position: absolute;
+    top: 8px;
+    width: 30px;
+}
+.Custom .CustomPROOF .CustomPROOF_view {
+    background-image: url(../images/CustomLt.png);
+    display: none;
+    height: 410px;
+    padding: 138px 56px 75px 46px;
+    position: absolute;
+    right: 0;
+    top: 33px;
+    width: 255px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view {
+    height: 318px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_viewbtm {
+    background: url(../images/send_tag_bg.png) no-repeat scroll 0 -2px rgba(0, 0, 0, 0);
+    float: left;
+    height: 47px;
+    width: 255px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .view_toggle_btn {
+    cursor: pointer;
+    float: left;
+    height: 47px;
+    width: 45px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .view_toggle_btn {
+    cursor: pointer;
+    float: left;
+    height: 47px;
+    width: 45px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_viewbtm .view_Custom_test {
+    display: none;
+}
+#popup-ynsync dl {
+    height: 140px;
+}
+#popup-ynsync dt {
+    font-family: "微软雅黑";
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+}
+#popup-ynsync dd {
+    text-align: center;
+}
+#popup-ynsync dd a {
+    float: left;
+}
+#popup-ynsync .Determine-A {
+    margin-left: 90px;
+}
+#popup-ynsync .Determine-A .Determine {
+    background: url(../images/bg.png) repeat-x scroll 0 -535px rgba(0, 0, 0, 0);
+}
+#popup-ynsync .Determine {
+    border: medium none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    height: 38px;
+    width: 129px;
+}
+#popup-ynsync .Determine-A {
+    margin-left: 90px;
+}
+#popup-ynsync .Binding-A {
+    margin-left: 20px;
+}
+#popup-ynsync .Binding {
+    border: 1px solid #BBBBBB;
+    border-radius: 2px;
+    color: #666666;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    height: 38px;
+    width: 127px;
+}
+.Custom .CustomLt2 li {
+    color: #333333;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    height: 47px;
+    line-height: 47px;
+    margin-left: 2px;
+    position: relative;
+    text-align: center;
+    width: 83px;
+}
+.FunctionCer .right_box .user_talk {
+    background-color: #FFFFFF !important;
+    border: medium none !important;
+    left: 0;
+    padding-left: 35px !important;
+    position: relative;
+    top: 0;
+    width: 310px !important;
+}
+.FunctionCer .right_box .user_talk .talk_cent {
+    float: left;
+    margin: 20px 0 0 10px;
+    width: 281px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent01 {
+    background: url(../images/talkbg.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 20px 0 0 28px;
+}
+.Custom .CustomRt {
+    float: right;
+    position: relative;
+    width: 354px;
+}
+.FunctionCer {
+    border: 1px solid #BEBEBE;
+}
+.FunctionCer {
+    display: inline;
+    float: left;
+    margin: 25px;
+    width: 720px;
+}
+.FunctionCer .select_menu dt {
+    background-color: #F1F1F1;
+    border-bottom: 1px solid #BEBEBE;
+    cursor: pointer;
+    float: left;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    width: 177px;
+}
+.FunctionCer .select_menu dd {
+    background-color: #F1F1F1;
+    border-bottom: 1px solid #BEBEBE;
+    border-left: 1px solid #BEBEBE;
+    cursor: pointer;
+    float: left;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    width: 176px;
+}
+.FunctionCer .right_box {
+    background-color: #F9F9F9;
+    border: 1px solid #C4C4C4;
+    float: right;
+    padding: 15px;
+    width: 354px;
+}
+.FunctionCer .right_box .r_title dt {
+    width: 60px;
+}
+.FunctionCer .right_box .r_title dt, .FunctionCer .right_box .r_title dd {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+.FunctionCer .right_box .r_title dt, .FunctionCer .right_box .r_title dd {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+.FunctionCer .right_box .r_title input {
+    border: 1px solid #AEBAC0;
+    font-size: 12px;
+    height: 20px;
+    margin-top: 14px;
+    padding-left: 5px;
+    width: 210px;
+}
+.FunctionCer .right_box .user_talk {
+    background-color: #FFFFFF !important;
+    border: medium none !important;
+    left: 0;
+    padding-left: 35px !important;
+    position: relative;
+    top: 0;
+    width: 310px !important;
+}
+.FunctionCer .right_box .user_talk {
+    background-color: #F2F2DA;
+    border: 1px solid #C4C4C4;
+    clear: both;
+    position: relative;
+    width: 356px;
+}
+.FunctionCer .right_box .save_btn {
+    background: url(../images/save12.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 40px;
+    margin: 30px 0 40px 83px;
+    width: 119px;
+}
+.Sorting-A .Sorting {
+    background:url(../images/bg.png) repeat-x scroll 0 -68px rgba(0, 0, 0, 0);
+}
+.Custom .CustomPROOF .Btn-A:hover .view_btn {
+    background: url(../images/bg.png) repeat-x scroll 0 -287px rgba(0, 0, 0, 0);
+}
+
+.select_btn_s {
+    margin-top: 200px;
+}
+
+.select_btn_s h1 {
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.select_btn_s button {
+    background: url(../images/btn_bgs.png) repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #C3C3C3;
+    cursor: pointer;
+    height: 37px;
+    line-height: 37px;
+    margin: 0 10px;
+    text-align: center;
+    width: 132px;
+}
+a, button, input {
+}
+
+.Custom .CustomCer {
+    display: inline;
+    float: left;
+    margin: 50px 25px;
+    width: 730px;
+}
+
+.FunctionCer .right_box .r_title dt {
+    width: 60px;
+}
+
+element.style {
+    display: block;
+}
+.FunctionCer .right_box .hsborder {
+    border-top: medium none !important;
+    height: 50px;
+    padding-left: 35px;
+}
+.FunctionCer .right_box .hsborder {
+    border-top: 1px dotted #C4C4C4;
+    clear: both;
+}
+
+element.style {
+    display: block;
+}
+.FunctionCer .right_box .user_talk .user_pic {
+    margin: 20px 0 0 !important;
+    width: 61px !important;
+}
+.FunctionCer .right_box .user_talk .user_pic {
+    float: left;
+    margin: 20px 0 0 18px;
+    width: 32px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_viewbtm {
+    background:url(../images/send_tag_bg.png) no-repeat scroll 0 -2px rgba(0, 0, 0, 0);
+    float: left;
+    height: 47px;
+    width: 255px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .view_toggle_btn {
+    cursor: pointer;
+    float: left;
+    height: 47px;
+    width: 45px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_viewbtm li {
+    color: #333333;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    height: 47px;
+    line-height: 47px;
+    position: relative;
+    text-align: center;
+    width: 70px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_viewbtm li font {
+    display: block;
+    overflow: hidden;
+    padding: 0 2px;
+}
+.CustomPop {
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.CustomPop .CustomBox {
+    background-color: #F3F4F4;
+    border: 2px solid #C3C3C3;
+    left: 50%;
+    margin-left: -270px;
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+    width: 520px;
+    z-index: 100;
+}
+
+.CustomPop .CustomBox h1 {
+    border-bottom: 1px solid #DEDFDF;
+    float: left;
+    padding-bottom: 10px;
+    width: 520px;
+}
+
+.CustomPop .CustomBox h1 span {
+    color: #666666;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.CustomPop .CustomBox h1 img {
+    cursor: pointer;
+    float: right;
+    height: 20px;
+    width: 20px;
+}
+
+.CustomPop .CustomBox ul {
+    border-top: 1px solid #FFFFFF;
+    float: left;
+    width: 520px;
+}
+
+.CustomPop .CustomBox ul p {
+    color: #666666;
+    float: left;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+    width: 520px;
+}
+
+.CustomPop .CustomBox ul li {
+    float: left;
+    margin-top: 20px;
+    width: 520px;
+}
+
+.CustomPop .CustomBox ul li span {
+    color: #666666;
+    float: left;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 39px;
+    text-align: right;
+    width: 150px;
+}
+
+.CustomPop .CustomBox ul li input {
+    background-color: #FFFFFF;
+    border: 1px solid #C9C9C9;
+    float: left;
+    padding: 10px 2px;
+    width: 270px;
+}
+a, button, input {
+}
+
+.CustomPop .CustomBox ul li {
+    float: left;
+    margin-top: 20px;
+    width: 520px;
+}
+ul li, ol li {
+    list-style-type: none;
+    text-decoration: none;
+}
+ul li, ol li {
+    list-style-type: none;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.CustomPop .CustomBox ul li span {
+    color: #666666;
+    float: left;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 39px;
+    text-align: right;
+    width: 150px;
+}
+
+.CustomPop .CustomBox ul li input {
+    background-color: #FFFFFF;
+    border: 1px solid #C9C9C9;
+    float: left;
+    padding: 10px 2px;
+    width: 270px;
+}
+
+.CustomPop .CustomBox ul a {
+    background: url(../images/Custombtn.gif) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    display: inline;
+    float: left;
+    font-size: 14px;
+    line-height: 39px;
+    margin: 20px 0 0 150px;
+    text-align: center;
+    width: 137px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_viewbtm .view_Custom_test {
+    display: none;
+}
+
+.Custom .CustomPROOF .CustomPROOF_view .Custom_viewbtm .view_Custom_test input {
+    float: left;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    margin: 12px 0 0 79px;
+    width: 77px;
+}
+
+.Custom .CustomPROOF .CustomPROOF_view .Custom_viewbtm .view_Custom_test button {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    float: left;
+    height: 33px;
+    margin: 5px 0 0 6px;
+    width: 45px;
+}
+
+
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view {
+    height: 318px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .mesend img {
+    background-color: #C3D5FF;
+    display: block;
+    float: right;
+    height: 34px;
+    margin-right: 5px;
+    width: 34px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .poptip-arrow-right {
+    right: -6px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .mesend .poptip-arrow em {
+    color: #C5C5B5;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .poptip-arrow-right em {
+    left: -6px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .poptip-arrow em {
+    color: #C5C5B5;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .poptip-arrow em, .poptip-arrow i {
+    font-style: normal;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .mesend {
+    padding: 10px 0 10px 13px;
+    position: relative;
+    width: 241px;
+}
+
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .reply img {
+    background-color: #C3D5FF;
+    display: block;
+    float: left;
+    height: 34px;
+    margin-left: 5px;
+    width: 34px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .reply .poptip {
+    background-color: #AEDC43;
+    border: 1px solid #9DB458;
+}
+
+
+.Custom .CustomPROOF .CustomPROOF_view .container_clear {
+    clear: both;
+    height: 1px;
+    width: 100%;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .reply {
+    padding: 10px 0;
+    position: relative;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .reply .poptip {
+    background-color: #AEDC43;
+    border: 1px solid #9DB458;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .poptip {
+    background-color: #FFFCEF;
+    border: 1px solid #C5C5B5;
+    border-radius: 4px;
+    box-shadow: 0 0 3px #DDDDDD;
+    color: #000000;
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 170px;
+    padding: 6px 10px 5px;
+    position: relative;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .poptip-arrow-left {
+    left: -6px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .poptip-arrow-left, .poptip-arrow-right {
+    height: 12px;
+    margin-top: -6px;
+    top: 12px;
+    width: 6px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .poptip-arrow {
+    font-family: simsun;
+    font-size: 12px;
+    font-style: normal;
+    overflow: hidden;
+    position: absolute;
+    text-shadow: 0 0 2px #CCCCCC;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .reply .poptip-arrow em {
+    color: #9DB458;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .poptip-arrow-left em {
+    left: 1px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .poptip-arrow em {
+    color: #C5C5B5;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .poptip-arrow em, .poptip-arrow i {
+    font-style: normal;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .reply .poptip-arrow i {
+    color: #AEDC43;
+    text-shadow: none;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .poptip-arrow-left i {
+    left: 2px;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .poptip-arrow i {
+    color: #F6F6F6;
+    text-shadow: none;
+}
+.Custom .CustomPROOF .CustomPROOF_view .Custom_view .poptip-arrow em, .poptip-arrow i {
+    font-style: normal;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+
+
+
+/*------------------------自己添加的样式结束---------------------------------------*//* CSS Document */
+

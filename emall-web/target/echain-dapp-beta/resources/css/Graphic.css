@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* { margin:0;padding:0; border:0;}
+a { text-decoration:none; border:0px; color:#000; }
+a:hover { text-decoration:none; border:0px; } 
+h1,h2,h3,h4,h5,h6 { font-size:12px; font-weight:normal; font-family:"宋体"; }
+body { font-family:"宋体"; font-size:12px; font-weight:normal; color:#333; }
+ul li,ol li { list-style-type:none; text-decoration:none; }
+
+.Graphic{width:748px; height:1069px; border:1px solid #bebebe;}
+.Graphic .Graphic_top{width:128px; height:20px; border:1px solid #c1bfbf; font-size:12px; background-image:url(/func/images/Graphic.png); background-repeat:no-repeat; background-position:5px center; margin-left:596px; margin-bottom:10px; margin-top:10px}
+.Graphic .Graphic_top a{color:#3a5900; margin-left:20px; line-height:20px;}
+.Graphic .Graphic_title{width:706px; height:995px; border:1px solid #aeb8ca; margin-left:19px; background:#f9f9f9;}
+.Graphic .Graphic_title ul li{float:left; width:140px; height:34px; border-left:1px solid #aeb8ca;border-bottom:1px solid #aeb8ca; text-align:center; line-height:34px; font-size:14px}
+.Graphic .Graphic_title .Graphic_title_1{ background:url(/func/images/Graphic_03.png); color:#FFF; font-weight: bold}
+.Graphic .Graphic_title .Graphic_title_1 .dw{ background:url(/func/images/Graphic_06.png);width:14px; height:7px; background-position:center center; margin-left:60px}
+.Graphic .Graphic_title .Graphic_title_left{ width:310px; height:244px; border:1px solid #cfd0d1; margin-left:12px; margin-top:34px;float:left}
+.Graphic .Graphic_title .Graphic_title_left dl{ margin-left:20px; margin-top:20px; font-size:14px; color:#666; }
+
+.Graphic .Graphic_title .Graphic_title_left .tu{ background:#ebecee; width:284px; height:122px; margin-top:10px; margin-left:-7px; font-size:18px; color:#8c8e91; text-align:center; line-height:122px}
+.Graphic .Graphic_title .Graphic_title_left .bt{background:#88898a; width:284px; height:32px;margin-left:-7px;font-size:14px; color:#fff;  line-height:32px;}
+.Graphic .Graphic_title .Graphic_title_right{width:358px; height:780px; border:1px solid #cfd0d1;float:left; margin-left:12px; margin-top:34px; background:#f2f3f5;}
+.Graphic .Graphic_title .Graphic_title_right dl{ font-size:14px; color:#666; margin-left:20px; margin-top:20px;}
+.Graphic .Graphic_title .Graphic_title_right dl dd{margin-top:20px;}
+.Graphic .Graphic_title .Graphic_title_right fm{ font-size:12px; color:#666; float:right; margin-right:12px; position:relative;}
+.Graphic .Graphic_title .Graphic_title_right dl input{ border: 1px solid #cfcfd0;margin-top:14px;}
+.Graphic .Graphic_title .Graphic_title_right .bt_1{ width:310px; padding:10px 3px;}
+.Graphic .Graphic_title .Graphic_title_right .zz{ width:316px; height:82px;}
+.Graphic_title_right .zz{ width:310px; padding:10px 3px;}
+.Graphic_title_right .zw{ width:316px; height:168px;}
+.Graphic_title_right .bt_1{ width:500px; padding:10px 3px;}
+.Graphic .Graphic_title .Graphic_title_right .zw{ width:316px; height:168px;}
+.Graphic .Graphic_title .Graphic_title_bottom{ clear:both; margin-left:380px; margin-top:880px}
+.Graphic_title_bottom_1{cursor:pointer;  margin:5px 2px 2px 20px;width:128px; height:38px; background-image:url(/func/images/Graphic_15.png); background-repeat:repeat-x; background-position:left center; float:left;border-radius:2px; font-size:14px; font-family:"微软雅黑";color:#fff;line-height:38px; text-align:center}
+.Graphic_title_bottom_2{ cursor:pointer; margin:5px 2px 2px 20px;width:128px; height:38px; border:1px solid #bbb; float:left; margin-left:20px; border-radius:2px; font-size:14px; font-family:"微软雅黑";color:#666; line-height:38px; text-align:center}
+
+
+
+
+
+/*2*/
+.Graphic .Graphic_title .Graphic_title_left_1{ width:310px; height:122px; border-bottom:1px solid #cfd0d1; border-left:1px solid #cfd0d1; border-right:1px solid #cfd0d1; margin-top:34px; margin-left:-21px; margin-top:10px}
+.Graphic .Graphic_title .Graphic_title_left_1 p{font-size:14px; font-family:"微软雅黑";color:#666; margin-left:25px;line-height:50px}
+.Graphic .Graphic_title .Graphic_title_left_1 .logo{ width:77px; height:77px; margin-left:215px; margin-top:-25px; background:#ececee;font-size:14px; font-family:"微软雅黑";color:#666; text-indent:20px; line-height:77px}
+.Graphic .Graphic_title .Graphic_title_left_2{ width:310px; height:122px; border-bottom:1px solid #cfd0d1; border-left:1px solid #cfd0d1; border-right:1px solid #cfd0d1; margin-left:-21px ; background:#f2f3f5;font-size:15px; font-family:"微软雅黑";color:#666; text-indent:120px;line-height:120px;}
+.Graphic .Graphic_title .Graphic_title_right .fm {width:316px; height:34px; border: 1px solid #cfcfd0;background-image:url(/func/images/Graphic11.png); background-repeat:no-repeat; background-position:10px 10px; text-indent:30px ; line-height:34px;}
+
+
+
+
+/*3*/
+
+.Graphic_title_left .tu1{ background:#c2c3c4; width:284px; height:122px; margin-top:10px; margin-left:-7px; font-size:18px; color:#8c8e91; text-align:center; line-height:122px}
+.Graphic_title_left .bt1{background:#7d7e7e; width:284px; height:32px;margin-left:-7px;font-size:14px; color:#d0d0d0;  line-height:32px; }
+.Graphic_title_left .tu1 .dingwei{width:34px; height:34px; background:#fff; border-radius:2px; position:fixed;top:90px;left:150px;}
+.Graphic_title_left .tu1 img{  position:fixed;top:99px;left:159px;}
+ .Graphic_title_left_5{ width:310px; height:122px; border-bottom:1px solid #cfd0d1; border-left:1px solid #cfd0d1; border-right:1px solid #cfd0d1; margin-top:44px; margin-left:-21px; margin-top:44px; background:#cfd0d1}
+.Graphic_title_left_5 p{font-size:14px; font-family:"微软雅黑";color:#666; margin-left:25px;line-height:50px}
+.Graphic_title_left_5 .dingwei{width:34px; height:34px; background:#fff; border-radius:2px;position:relative; top:-10px;left:125px; float:left; margin-left:-10px}
+.Graphic_title_left_5 img{ margin-top:10px; margin-left:8px}
+.Graphic_title_left_5 .dingwei1{width:34px; height:34px; background:#fff; border-radius:2px;position:relative; top:-10px;left:125px;float:left; margin-left:10px}
+.Graphic_title_left_5 img{ margin-top:10px; margin-left:8px}
+.Graphic_title_left_5 .logo1{ width:77px; height:77px; margin-left:215px; margin-top:-25px; background:#c3c3c4;font-size:14px; font-family:"微软雅黑";color:#666; text-indent:20px; line-height:77px}
+.Graphic_title_left_6{ width:310px; height:122px; border-bottom:1px solid #cfd0d1; border-left:1px solid #cfd0d1; border-right:1px solid #cfd0d1; margin-left:-21px ; background:#f2f3f5;font-size:15px; font-family:"微软雅黑";color:#666; text-indent:120px;line-height:120px;}
+
+
+.Graphic_title_left{ width:310px; float:left; margin-left:10px;margin-top:15px; border:1px solid #cfd0d1;}
+
+
+
+.Graphic_title_left_0{ float:left; width:280px; padding:15px; position:relative;}
+.Graphic_title_left_0 dd{ float:left; width:280px;}
+.Graphic_title_left_0 .tu{ width:280px; height:120px; margin-top:10px; float:left;}
+.Graphic_title_left_0 .bt{color: #88898A; width:280px; height:32px;font-size:14px; line-height:32px; float:left;}
+.duotuwenImgs{ float:left; width:310px;}
+.Graphic_title_left_3{ width:310px; border-top:1px solid #cfd0d1; padding:10px 0; float:left; position:relative; height:80px;}
+.Graphic_title_left_3 p{font-size:14px; font-family:"微软雅黑";color:#666; margin-left:25px; float:left; line-height:25px; width:180px;}
+.Graphic_title_left_3 .logo{ width:80px; height:80px; float:right; margin-right:10px;}
+.GraphicPicture{ position:absolute; width:280px; height:120px; left:15px; top:39px; display:none;}
+.GraphicPicture .PictureBg{ float:left; width:280px; height:120px; background-color:#333; opacity:0.5; filter:alpha(opacity:50);}
+.GraphicPicture .PictureShow{ position:absolute; width:34px; left:130px; height:34px; top:45px; z-index:10;}
+.GraphicPicture .PictureShow label{ float:left; width:34px; height:34px; cursor:pointer; background-image:url(/func/images/GraphicModify.gif);}
+.GraphicOver{ position:absolute; width:310px; height:100px; left:0; top:0; display:none;}
+.GraphicOver .GraphicBg{ float:left; width:310px; height:100px; background-color:#333; opacity:0.5; filter:alpha(opacity:50);}
+.GraphicOver .GraphicShow{ position:absolute; width:90px; left:110px; height:34px; top:35px; z-index:10;}
+.GraphicOver .GraphicShow label{ float:left; width:34px; height:34px; cursor:pointer;}
+.GraphicOver .GraphicShow label.GraphicModify{ background-image:url(/func/images/GraphicModify.gif);} 
+.GraphicOver .GraphicShow label.GraphicDelete{ background-image:url(/func/images/GraphicDelete.gif); margin-left:20px; display:inline;}
+.Graphic_title_left_4{ width:310px; height:100px; border-top:1px solid #cfd0d1; background:#f2f3f5;font-size:15px; font-family:"微软雅黑";color:#666; text-indent:120px;line-height:100px; float:left; cursor:pointer;}
+
+
+.Graphic_title_right_0{ float:left;margin-top:15px; margin-left:20px; display:inline; width:360px;}
+.Graphic_title_right{ margin-bottom:2px; width:760px; padding-bottom:2px; border:1px solid #cfd0d1;float:left; background:#f2f3f5;}
+.Graphic_title_right .Graphic_title_right1{ position:relative;top:20px;left:-6px; background-image:url(/func/images/Graphic07.png); background-repeat:no-repeat; background-position:left center; width:6px; height:12px}
+.Graphic_title_right dl{ font-size:14px; color:#666; margin-left:20px; margin-top:20px;}
+.Graphic_title_right dl dd{margin-top:20px;}
+.Graphic_title_right dl dd span{ font-size:12px; color:#666;}
+.Graphic_title_right dl input{ border: 1px solid #cfcfd0;margin-top:6px;} 
+.Graphic_title_right .fm {width:516px; height:140px; margin-top:10px; border: 1px solid #cfcfd0;background-image:url(/func/images/Graphic11.png); background-repeat:no-repeat; background-position:10px 10px; text-indent:30px ; line-height:34px; position: relative;}
+.Graphic_title_right .fm .sc{height:80px; padding-top: 10px;border-top: 1px solid #CFCFD0;  }
+.Graphic_title_right .fm .sc img{ float: left; width:140px;height: 80px; margin-left: 10px; }
+.Graphic_title_right .fm .sc .delImg{ float: left; background:url(/func/images/Graphic5.png) no-repeat 0 center; line-height: 20px; margin: 60px 0 0 10px; color: #2E7DC6; font-size: 12px; text-indent: 20px; cursor:pointer;}

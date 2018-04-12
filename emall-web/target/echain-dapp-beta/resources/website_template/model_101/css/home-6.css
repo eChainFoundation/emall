@@ -1,0 +1,43 @@
+.body{
+	max-width:640px;
+	margin:auto;
+	min-height:100%;
+	position:relative;
+}
+#all{ position:fixed;
+	left:0;
+	right:0;
+	bottom: 70px;
+	width:100%;
+	z-index:2000;
+	max-width:640px;
+	margin:auto;
+	margin-top:-100%;
+	padding:5px 0;}
+.list_ul{
+    margin: 10px;
+    overflow: hidden;
+    width:260px;
+}
+
+.list_ul a{
+    color:#fff;
+    display:block;
+    background:rgba(0,0,0,0.3);
+    line-height:30px;
+    overflow:hidden;
+	padding:16px 0;
+}
+.list_ul a span img{ width:40px; height:40px;}
+
+.list_ul a p{ color:#fff; font-size:1.2em;}
+
+ .list_ul li{
+    padding:2px;
+    display:inline-block;
+    width:40%;
+    
+    text-align:center;
+    -webkit-box-sizing:border-box;
+}
+

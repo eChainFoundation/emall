@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+.my_payingBox {float: left; width: 688px; height: auto; margin: 0px; border: 1px #ccc solid; padding:10px 0px;}
+
+.payingTbCon {float:left; width: 668px; padding: 0px 10px 0px 10px; text-align: center; clear: both; margin-bottom:10px;}
+
+.payingTbCon table {margin-bottom: 10px; width: 100%; color: #666666;}
+.payingTbCon table tr th {text-align:left; background:url(../Images/folder_img.png) 0px 2px no-repeat; line-height: 20px;}
+.payingTbCon table tr th span {padding-left: 25px; vertical-align: top;}
+.payingTbCon table tr td {text-align:left; vertical-align: middle; padding: 3px 0px 3px 5px; color: #666666; border-bottom: #d0d0d0 1px dashed;}
+.payingTbCon a:link, .payingTbCon a:active, .payingTbCon a:visited{color: #0063dc; text-decoration: none}
+.payingTbCon a:hover {text-decoration: underline;}
+
+.orange {color: #f56200;}
+.timeBack {color:#3e9069 !important; margin: 2px 0px; FONT-SIZE: 12px}
+.timeBack a {color:#3e9069 !important;}
+
+.pblistCon {margin: 10px auto; width: 95%; border:#c5e1f7 1px solid; padding: 1px; display: block;}
+.pblistTb table { margin: 0px auto; width: 100%; color: #6d6d6d; text-align: left; border:none;}
+.pblistTb table tr th {text-align:left; height: 28px; background: url(../images/tbCon_thbg.gif) repeat-x;font-size: 12px; font-weight: bold; line-height: 28px; color: #527ac3; padding-left: 10px; border-bottom: #d0d0d0 1px dashed;}
+.pblistTb table tr td {height: 20px; padding: 2px 0px 2px 10px; vertical-align: middle; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif, "宋体", "微软雅黑"; border-bottom: #d0d0d0 1px dashed;}
+.pblistTb a:link, .pblistTb a:active, .pblistTb a:visited {color: #0063dc; text-decoration: none;}
+.pblistTb a:hover {text-decoration: underline;}

@@ -1,0 +1,39 @@
+﻿body {}
+.logInfo {width:300px; padding: 0px; color: #0063dc; font-family:"宋体", "微软雅黑";}
+.logInfo a {text-decoration: none; color: #0063dc;}
+.logInfo a:hover {color:#2ca3fe; text-decoration: underline;}
+.logInfo span {font-size: 12px; font-weight: normal; color: #f56200; padding: 0px 5px;}
+.logInfo span a {color: #f56200; text-decoration: none;}
+.logInfo span a:hover {text-decoration: underline; color: #f56200; }
+
+
+ #divAttention{width:400px;float:left; padding-left:25px; border:1px solid #333; background-color:#fff;}
+ #divAttention li{width:200px;float:left;}
+ #divAttention h2{width:150px;float:left;padding:0;margin:0;font:bold 16px "Microsoft YaHei";padding:10px 20px 2px;color:#85B6E2;}
+ #divAttention a.closeBtn{position:absolute;top:10px;right:10px;display:block;width:60px;padding:4px 0;text-align:center;background:#fff;border:1px solid #85B6E2;color:#333;}
+ #Modifycontaiter{text-align: center; width: 900px; padding: 10px 0px; height:auto;}
+ #Modifycontaiter input{margin: 0px 10px; width:120px; height:35px;border:0px; color:#fff; font-size:14px; font-weight:bold; cursor: pointer; line-height: 35px; background-color:Green;}
+ 
+.nav1 { float:left; width:140px; height: 50px; background:url(/Areas/Site/Content/images/topmenu_01.gif) top left no-repeat;}
+.nav1 a:link, .nav1 a:visited {width:140px; height: 50px; background:url(/Areas/Site/Content/images/topmenu_01.gif) 0 0 no-repeat; display: block;}
+.nav1 a:hover, .nav1 a:active {background:url(/Areas/Site/Content/images/topmenu_11.gif) 0 0 no-repeat; display: block;}
+
+.nav2 { float:left; width:140px; height: 50px; background:url(/Areas/Site/Content/images/topmenu_02.gif) 0 0 no-repeat;}
+.nav2 a:link, .nav2 a:visited {width:140px; height: 50px; background:url(/Areas/Site/Content/images/topmenu_02.gif) 0 0 no-repeat; display: block;}
+.nav2 a:hover, .nav2 a:active {background:url(/Areas/Site/Content/images/topmenu_22.gif) 0 0 no-repeat; display: block;}
+
+.nav3 { float:left; width:140px; height: 50px; background:url(/Areas/Site/Content/images/topmenu_03.gif) 0 0 no-repeat;}
+.nav3 a:link, .nav3 a:visited {width:140px; height: 50px; background:url(/Areas/Site/Content/images/topmenu_03.gif) 0 0 no-repeat; display: block;}
+.nav3 a:hover, .nav3 a:active {background:url(/Areas/Site/Content/images/topmenu_33.gif) 0 0 no-repeat; display: block;}
+
+.nav4 { float:left; width:140px; height: 50px; background:url(/Areas/Site/Content/images/topmenu_04.gif) 0 0 no-repeat;}
+.nav4 a:link, .nav4 a:visited {width:140px; height: 50px; background:url(/Areas/Site/Content/images/topmenu_04.gif) 0 0 no-repeat; display: block;}
+.nav4 a:hover, .nav4 a:active {background:url(/Areas/Site/Content/images/topmenu_44.gif) 0 0 no-repeat; display: block;}
+
+.nav5 { float:left; width:140px; height: 50px; background:url(/Areas/Site/Content/images/topmenu_05.gif) 0 0 no-repeat;}
+.nav5 a:link, .nav5 a:visited {width:140px; height: 50px; background:url(/Areas/Site/Content/images/topmenu_05.gif) 0 0 no-repeat; display: block;}
+.nav5 a:hover, .nav5 a:active {background:url(/Areas/Site/Content/images/topmenu_55.gif) 0 0 no-repeat; display: block;}
+
+.nav6 { float:left; width:140px; height: 50px; background:url(/Areas/Site/Content/images/topmenu_06.gif) 0 0 no-repeat;}
+.nav6 a:link, .nav6 a:visited {width:140px; height: 50px; background:url(/Areas/Site/Content/images/topmenu_06.gif) 0 0 no-repeat; display: block;}
+.nav6 a:hover, .nav6 a:active {background:url(/Areas/Site/Content/images/topmenu_66.gif) 0 0 no-repeat; display: block;}

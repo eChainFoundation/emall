@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.echain.dao.InsuranceDao" >
+  <resultMap id="BaseResultMap" type="com.echain.entity.Insurance" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="insurance_name" property="insuranceName" jdbcType="VARCHAR" />
+    <result column="insurance_num" property="insuranceNum" jdbcType="INTEGER" />
+    <result column="insurance_price" property="insurancePrice" jdbcType="DECIMAL" />
+    <result column="claims_price" property="claimsPrice" jdbcType="DECIMAL" />
+    <result column="insurance_type" property="insuranceType" jdbcType="CHAR" />
+    <result column="insurance_status" property="insuranceStatus" jdbcType="CHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.echain.entity.Insurance" extends="BaseResultMap" >
+    <result column="describe_text" property="describeText" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, insurance_name, insurance_num, insurance_price, claims_price, insurance_type, insurance_status, create_time
+  </sql>
+  <sql id="Blob_Column_List" >
+    describe_text
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from ec_insurance
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from ec_insurance
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.echain.entity.Insurance" >
+    insert into ec_insurance (id, insurance_name, insurance_num, 
+      insurance_price, claims_price, insurance_type, insurance_status, create_time, 
+      describe_text)
+    values (#{id,jdbcType=BIGINT}, #{insuranceName,jdbcType=VARCHAR}, #{insuranceNum,jdbcType=INTEGER}, 
+      #{insurancePrice,jdbcType=DECIMAL}, #{claimsPrice,jdbcType=DECIMAL}, #{insuranceType,jdbcType=CHAR}, 
+      #{insuranceStatus,jdbcType=CHAR}, #{createTime,jdbcType=TIMESTAMP}, 
+      #{describeText,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.echain.entity.Insurance" >
+    insert into ec_insurance
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="insuranceName != null" >
+        insurance_name,
+      </if>
+      <if test="insuranceNum != null" >
+        insurance_num,
+      </if>
+      <if test="insurancePrice != null" >
+        insurance_price,
+      </if>
+      <if test="claimsPrice != null" >
+        claims_price,
+      </if>
+      <if test="insuranceType != null" >
+        insurance_type,
+      </if>
+      <if test="insuranceStatus != null" >
+        insurance_status,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="describeText != null" >
+        describe_text,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="insuranceName != null" >
+        #{insuranceName,jdbcType=VARCHAR},
+      </if>
+      <if test="insuranceNum != null" >
+        #{insuranceNum,jdbcType=INTEGER},
+      </if>
+      <if test="insurancePrice != null" >
+        #{insurancePrice,jdbcType=DECIMAL},
+      </if>
+      <if test="claimsPrice != null" >
+         #{claimsPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="insuranceType != null" >
+        #{insuranceType,jdbcType=CHAR},
+      </if>
+      <if test="insuranceStatus != null" >
+        #{insuranceStatus,jdbcType=CHAR},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="describeText != null" >
+        #{describeText,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.echain.entity.Insurance" >
+    update ec_insurance
+    <set >
+      <if test="insuranceName != null" >
+        insurance_name = #{insuranceName,jdbcType=VARCHAR},
+      </if>
+      <if test="insuranceNum != null" >
+        insurance_num = #{insuranceNum,jdbcType=INTEGER},
+      </if>
+      <if test="insurancePrice != null" >
+        insurance_price = #{insurancePrice,jdbcType=DECIMAL},
+      </if>
+      <if test="claimsPrice != null" >
+         claims_price = #{claimsPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="insuranceType != null" >
+        insurance_type = #{insuranceType,jdbcType=CHAR},
+      </if>
+      <if test="insuranceStatus != null" >
+        insurance_status = #{insuranceStatus,jdbcType=CHAR},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="describeText != null" >
+        describ_text = #{describeText,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.echain.entity.Insurance" >
+    update ec_insurance
+    set insurance_name = #{insuranceName,jdbcType=VARCHAR},
+      insurance_num = #{insuranceNum,jdbcType=INTEGER},
+      insurance_price = #{insurancePrice,jdbcType=DECIMAL},
+      claims_price = #{claimsPrice,jdbcType=DECIMAL},
+      insurance_type = #{insuranceType,jdbcType=CHAR},
+      insurance_status = #{insuranceStatus,jdbcType=CHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      describ_text = #{describeText,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.echain.entity.Insurance" >
+    update ec_insurance
+    set insurance_name = #{insuranceName,jdbcType=VARCHAR},
+      insurance_num = #{insuranceNum,jdbcType=INTEGER},
+      insurance_price = #{insurancePrice,jdbcType=DECIMAL},
+      insurance_status = #{insuranceStatus,jdbcType=CHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

@@ -1,0 +1,5 @@
+SELECT A.id AS userId,A.user_name AS userName,A.phone_number AS phoneNumber,C.title
+	FROM sc_user_base A LEFT JOIN sc_baoming_activity B ON A.id=B.user_base_id JOIN sc_activity C ON B.activity_id=C.id
+	WHERE CURDATE() >= C.start_date AND CURDATE()<=C.end_date 
+	AND DATE_FORMAT(DATE_ADD(NOW(), INTERVAL #{beforeHour,jdbcType=BIGINT} HOUR),'%H:%i') <= C.start_time
+	AND B.status='0' AND C.status!='2';

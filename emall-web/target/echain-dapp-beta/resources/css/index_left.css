@@ -1,0 +1,66 @@
+/* 内容部分不变的样式*/
+.matter_box1{float:left; z-index:1; width:100%; background-image:url(../images/MicroCer_top.gif); background-repeat:repeat-x; background-position:0 -1px; margin-bottom:30px; }
+.matter1{ width:223px; margin:0 auto;}
+.matter1 .matter_wap1{ float:left; margin-top:2px; width:223px; position:relative;}
+
+
+/* 微服务通用左导航 */
+.matter1 .matter_wap1 .leftbar{ float:left; width:192px; float:left;}
+.matter1 .matter_wap1 .leftbar h1{ float:left; width:223px; height:48px; background-color:#505153; position:relative;}
+.matter1 .matter_wap1 .leftbar h1 a{ float:left; width:142px; line-height:48px; padding-left:50px; color:#fff; font-size:14px; font-weight:bold; background:url(../images/left_bar.png) no-repeat 20px center;}
+
+
+.matter1 .matter_wap1 .leftbar h1.Retail{width:190px; border:1px solid #d96c5e; background:url(../images/Packages.png) no-repeat right center #df6f60;}
+.matter1 .matter_wap1 .leftbar h1.Retail a{ background:url(../images/retail1.png) no-repeat 20px center;}
+.matter1 .matter_wap1 .leftbar h1.Automobile{width:190px; border:1px solid #5d667f; background:url(../images/Packages.png) no-repeat right center #5d667f;}
+.matter1 .matter_wap1 .leftbar h1.Automobile a{ background:url(../images/Auto1.png) no-repeat 20px center;}
+.matter1 .matter_wap1 .leftbar h1.Medical{width:190px; border:1px solid #3fa889; background:url(../images/Packages.png) no-repeat right center #40aa8b;}
+.matter1 .matter_wap1 .leftbar h1.Medical a{ background:url(../images/Health1.png) no-repeat 20px center;}
+.matter1 .matter_wap1 .leftbar h1.provider{width:190px; border:1px solid #ed7854; background:url(../images/Packages.png) no-repeat right center #fd8151;}
+.matter1 .matter_wap1 .leftbar h1.provider a{ background:url(../images/provider1.png) no-repeat 20px center;}
+.matter1 .matter_wap1 .leftbar .accordion{ float:left; width:190px; border:1px solid #bebebe;}
+.matter1 .matter_wap1 .leftbar h2{text-decoration:none; border-radius:0; background:url(../images/Retail.gif) repeat-x #f6f6f6; width:185px; height:35px; line-height:35px; cursor:pointer; margin:0; border-top:none;  border-left:none;border-right:1px solid #ccc; border-bottom:1px solid #ccc; float:left; position:relative;}
+.matter1 .matter_wap1 .leftbar h2 img{ float:left; width:14px; height:13px; margin:10px 15px 0 0; display:inline;}
+.matter1 .matter_wap1 .leftbar h2.Takeout{ padding-left:17px; width:167px;}
+.matter1 .matter_wap1 .leftbar h2.Auto{ padding-left:17px; width:167px;}
+.matter1 .matter_wap1 .leftbar h2.Health{ padding-left:17px; width:167px;}
+.matter1 .matter_wap1 .leftbar h2.Electric{ padding-left:17px; width:167px;}
+.matter1 .matter_wap1 .leftbar h2 .OrdersQty{ float:right; padding:0 5px; line-height:14px; border-radius:5px; background-color:#faa725; color:#fff; font-family:Arial; font-size:10px; margin:11px 25px 0 0;}
+.matter1 .matter_wap1 .leftbar .OrdersCheck{ position:absolute; left:130px; top:40px; border:2px solid #faa725; background-color:#ffffff; height:40px; line-height:40px; z-index:10; width:200px; padding:0 10px; display:none;}
+.matter1 .matter_wap1 .leftbar .OrdersCheck p{ position:absolute; left:13px; top:-6px; width:7px; height:6px;background:url(../images/OrdersCheck.png)}
+.matter1 .matter_wap1 .leftbar .OrdersCheck a{ color:#699d08;}
+.matter1 .matter_wap1 .leftbar h2 .Crown{ position:absolute; left:122px; top:15px; }
+.matter1 .matter_wap1 .leftbar h2 .Crown img{ float:left; }
+.matter1 .matter_wap1 .leftbar .left_exmenu{display:none; width:223px;  background-color:#e8ebed; float:left; border-left:none;border-right:none; border-bottom:1px solid #ccc;}
+.matter1 .matter_wap1 .leftbar .left_exmenu p{height:30px; line-height:30px; float:left; width:190px; margin:5px 0;}
+.matter1 .matter_wap1 .leftbar h3{text-decoration:none; text-indent:30px; background-color:#E6E6E6; color:#666666; padding:0; margin:0; border:none; width:223px; height:40px; line-height:40px; cursor:pointer; float:left; }
+.matter1 .matter_wap1 .leftbar h3 a{display:block; text-decoration:none;color:#666666; font-weight:normal; font-size:13px;}
+.matter1 .matter_wap1 .leftbar h3.Commodity-children a{ padding-left:17px;}
+.matter1 .matter_wap1 .leftbar h3.Orders-children a{ padding-left:17px;}
+
+.matter1 .matter_wap1 .leftbar .children_exmenu{display:none; width:190px;margin-top:2px;  background-color:#e8ebed; float:left; border-left:none;border-right:none; border-bottom:1px solid #ccc;}
+.matter1 .matter_wap1 .leftbar .children_exmenu h4{text-decoration:none; text-indent:43px;  background-image:url("../images/busi_icon.png");background-repeat:no-repeat; background-position:21px -131px; color:#666666; padding:0; margin:0; border:none; margin-left:6px; width:184px; height:25px; line-height:25px; font-weight:normal; cursor:pointer; float:left; }
+.matter1 .matter_wap1 .leftbar .children_exmenu h4 a{display:block;text-decoration:none;color:#666666; font-size:13px;}
+.exmenu-h4-hover{ background-position:21px -102px !important; background-color:#d3d3d2;  }
+.exmenu-h4-click{background-position:21px -102px !important; background-color:#699d0a !important; }
+
+
+
+.matter1 .matter_wap1 .right_centent{ float:right; width:782px; }
+
+
+.matter1 .matter_wap1 .sort{ height:45px; line-height:45px; float:left; width:740px; border-left:1px solid #BEBEBE; border-right:1px solid #BEBEBE; border-top:2px solid #97999c; background-color:#f7f7f7; color:#666; padding:0 20px;}
+.matter1 .matter_wap1 .sort a{ color:#666;}
+.matter1 .matter_wap1 .sort span{ color:#699d08;}
+
+
+/* 后台右部 */
+.matter1 .matter_wap1 .centent_r_btm{ width:780px; min-height:754px; padding-bottom:48px; border:1px #BEBEBE solid; float:left; background-color:#fff; margin-top:-1px; position:relative;}
+.matter1 .centent_r_btm .btm_p{ font-family:"微软雅黑";  font-size:18px; color:#0b0c0b; padding:0;}
+.matter1 .centent_r_btm .stopen{cursor:pointer; width:105px; height:32px; background:url(../images/opening.gif) no-repeat; border:none; margin-left:335px; margin-bottom:180px; display:inline;}
+.matter1 .centent_r_btm .centent_r_qw{ float:left; padding:10px 15px; width:747px;}
+.matter .centent_r_btm .centent_r_qw font{ line-height: 24px;}
+
+.matter1 .centent_r_btm .matter_wap_top{ float:left; width:695px; background-color:#f9ffe1; border:1px solid #beca8c; margin:30px 20px 0; display:inline; padding:15px 20px;}
+.matter1 .centent_r_btm .matter_wap_top span{ float:left; line-height:37px; color:#ff0000; font-family:"微软雅黑"; font-size:18px;}
+.matter1 .centent_r_btm .matter_wap_top a{ float:right; width:110px; height:37px;}

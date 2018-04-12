@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+.topMainInfo {float:left; width:auto; height:auto;}
+.loanlist_pageTitle {height: 35px; width: 920px; line-height: 40px; text-align:center; font-size: 16px; font-weight:bold; color:#3e9069;}
+.page_apartline {background: url(/Areas/Site/Content/images/ld_pageTitbg.jpg) repeat-x; display:block; width: 920px; height: 10px; margin-bottom: 5px;}
+.topMain_right {float:left; /*width: 650px;*/ width: 780px; height:auto;}
+.topInfo_pic {float:left; width:260px; padding: 5px;}
+.ld_pic {width: 240px; height: 240px; padding: 5px; border: #ccc 1px solid;}
+.concernTxt a {text-align:center; height: 35px; width:auto; line-height: 35px; font-weight: bold; color: #0063dc;}
+.topInfo_tbBox { float:right; /*width: 360px;*/ width: 450px; height: auto; margin:0px; padding: 0px;}
+
+table.listInfo {WIDTH: 100%}
+table.listInfo td {border-bottom: #dddddd 1px dashed; padding: 7px 0px 7px 0px; white-space: nowrap;}
+.Money_num {LINE-HEIGHT: 25px; COLOR: #f56200; font-size:24px; FONT-WEIGHT: bold; TEXT-DECORATION: none; font-family: Arial, Helvetica, sans-serif;}
+.bar_imgW {width: 100px}
+.progressTxt{padding-top: 5px; float:left}
+.bidButton:hover { background: url(/Areas/Site/Content/images/bid_btn2.gif) 0px 0px no-repeat;}
+.bidButton {WIDTH: 166px; DISPLAY: block; background: url(/Areas/Site/Content/images/bid_btn1.gif) 0px 0px no-repeat; HEIGHT: 35px;}
+.tip_bid {margin: 8px auto; color: #0063dc;}
+
+.fileBox {float:left; /*width: 260px;*/ width: 300px; height:auto; margin-top:5px; margin-left: 5px; border: #ccc 1px solid; text-align:center;}
+.fileBox_content {padding: 10px 5px 10px 5px; width: auto; /*width: 280px;*/}
+.fileBox_tit {height: 20px; text-align:left; padding-left: 5px; color: #0063dc; border-bottom: #ccc 1px solid; font-weight: bold;}
+.file_faceimg {margin:5px 0px; float:right; border: #ddd 1px solid; padding: 2px;}
+
+DIV.smallInfo {PADDING-BOTTOM: 3px; MARGIN: auto; PADDING-LEFT: 3px; PADDING-RIGHT: 5px; PADDING-TOP: 5px; text-align: left;}
+DIV.smallInfo UL.user {PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px;}
+DIV.smallInfo UL.user LI {border-bottom: #dddddd 1px dashed; LIST-STYLE-TYPE: none; padding: 2px 0px; margin: 0px;}
+DIV.smallInfo UL.user OL {PADDING-BOTTOM: 5px; LIST-STYLE-TYPE: none; MARGIN: 5px 0px 5px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px;}
+DIV.smallInfo UL.user DIV {padding: 3px 0px 3px 0px;}
+.fontGray_9d { color: #9d9d9d;}
+.Bookmark {PADDING-LEFT: 10px; BACKGROUND: url(/Areas/Site/Content/images/listDetail_ban.gif) 0px -35px repeat-x; HEIGHT: 35px; CLEAR: both;}
+.BookmarkInfo {MARGIN: 10px; WORD-WRAP: break-word; OVERFLOW: hidden;}
+.BookmarkInfo TABLE {width: 100%;}
+.List_BorrowInfo {BORDER-BOTTOM: #ececec 1px solid; BORDER-LEFT: #ececec 1px solid; PADDING-BOTTOM: 10px; LINE-HEIGHT: 200%; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #ececec 1px solid; BORDER-RIGHT: #ececec 1px solid; PADDING-TOP: 10px;}
+.List_BorrowInfo .base_info {padding: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px 0px 10px 70px; WIDTH: 90%;}
+.List_BorrowInfo .base_info li { width: 200px; padding: 0px; LIST-STYLE-TYPE: none; MARGIN: 5px 50px 5px 0px; WHITE-SPACE: nowrap; FLOAT: left;}
+
+.Infobox {margin: 0px 0px 8px 0px;  border: 1px #ccc solid; padding: 5px 10px 5px 10px;}
+.Infobox_tb {margin: 0px 0px 10px 0px;  border: 1px #ccc solid; padding: 10px 10px 15px 10px;}
+
+.itemTit {font-weight: noraml; color: #0063dc;}
+.blockTitle {font:"宋体", "微软雅黑", "黑体"; font-size: 14px; color:#3e9069; font-weight: bold; line-height: 40px; padding-left: 20px;}
+.attention {COLOR: #999; FONT-SIZE: 12px; FONT-WEIGHT: normal;}
+.folder a {PADDING-LEFT: 30px; BACKGROUND: url(/Areas/Site/Content/images/folder_img.png) 5px 0px no-repeat; letter-spacing: 1px;}
+.approve_table {WIDTH: 80%; BORDER-COLLAPSE: collapse; margin: 0px;}
+.approve_table TR TH {BORDER-BOTTOM: #dddddd 1px dashed; font-weight: bold; letter-spacing: 2px; padding-left: 10px;}
+.approve_table TR TD {BORDER-BOTTOM: #dddddd 1px dashed; padding-left: 10px; font-family:Verdana,Tahoma,Arial,Helvetica,sans-serif, "宋体", "微软雅黑"; font-size: 12px;}
+	
+.BorrowDetail_tb{width: 100%; BORDER-COLLAPSE: collapse; margin: 0px;}
+.BorrowDetail_tb tr th {BORDER-BOTTOM: #dddddd 1px dashed; padding: 0px; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif, "宋体", "微软雅黑"; font-size: 12px; vertical-align: top; text-align: left;}
+.BorrowDetail_tb tr td {BORDER-BOTTOM: #dddddd 1px dashed; padding: 5px 0px; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif, "宋体", "微软雅黑"; font-size: 12px; vertical-align: top;}
+.tenderTb table { margin: 0px auto; width: 100%; color: #6d6d6d; vertical-align: middle; text-align: left;}
+.tenderTb table tr th {text-align:left; height: 38px; background: url(/Areas/Site/Content/images/tbCon_thbg.gif) repeat-x; font-size: 12px; font-weight: bold; line-height: 35px; color: #527ac3; padding-left: 10px;}
+.tenderTb table tr td {height: 15px; padding: 2px 0px 2px 10px; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif, "宋体", "微软雅黑";}
+.tenderTb a:link, .tenderTb a:active, .tenderTb a:visited {color: #0063dc; text-decoration: none;}
+.tenderTb a:hover {text-decoration: underline;}
+
+.qa{line-height: 25px; LIST-STYLE-TYPE: none; margin: 0px; padding: 0px; text-align: left;}
+.qa div {BORDER-BOTTOM: #dddddd 1px dashed; padding: 5px 0px 5px 0px; LIST-STYLE-TYPE: none; margin: 10px; width: 97%; text-align:left;}
+.qa a {FONT-STYLE: normal; FONT-SIZE: 12px; FONT-WEIGHT: normal; text-decoration: none;}
+.qa DL {text-align: left; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif, "宋体", "微软雅黑";}
+.qa DT {MARGIN: 5px 0px; PADDING-LEFT: 35px; DISPLAY: block; background: url(/Areas/Site/Content/images/qa_q.gif) 0px 0px no-repeat; overflow: hidden;}
+.qa DD {MARGIN: 5px 0px; PADDING-LEFT: 35px; DISPLAY: block; background: url(/Areas/Site/Content/images/qa_a.gif) 0px 0px no-repeat; overflow: hidden;}
+.qa span {padding-left: 15px; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif, "宋体", "微软雅黑";}
+
+
+.MesageDT {MARGIN: 5px 0px; PADDING-LEFT: 35px; DISPLAY: block; background: url(../images/qa_q.gif) 0px 0px no-repeat; overflow: hidden;}
+
+
+
+
+.dl {text-align: left; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif, "瀹嬩綋", "寰蒋闆呴粦";}
+.dt {MARGIN: 5px 0px; PADDING-LEFT: 35px; DISPLAY: block; background: url(../images/qa_q.gif) 0px 0px no-repeat; overflow: hidden;}
+.dd {MARGIN: 5px 0px; PADDING-LEFT: 35px; DISPLAY: block; background: url(../images/qa_a.gif) 0px 0px no-repeat; overflow: hidden;}
+

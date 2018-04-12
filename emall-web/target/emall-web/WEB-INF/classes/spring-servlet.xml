@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" 
+	xmlns:task="http://www.springframework.org/schema/task"  
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:cache="http://www.springframework.org/schema/cache"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd   
+       http://www.springframework.org/schema/aop 
+       http://www.springframework.org/schema/aop/spring-aop-3.0.xsd   
+       http://www.springframework.org/schema/tx 
+       http://www.springframework.org/schema/tx/spring-tx-3.0.xsd   
+       http://www.springframework.org/schema/mvc       
+       http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd  
+       http://www.springframework.org/schema/jee 
+	   http://www.springframework.org/schema/jee/spring-jee-3.0.xsd
+       http://www.springframework.org/schema/task
+	   http://www.springframework.org/schema/task/spring-task-3.0.xsd
+       http://www.springframework.org/schema/context 
+       http://www.springframework.org/schema/context/spring-context-3.0.xsd
+       http://www.springframework.org/schema/cache 
+       http://www.springframework.org/schema/cache/spring-cache-3.1.xsd"
+        default-lazy-init="true">
+       
+        <!-- 启用spring mvc 注解  --> 
+        <!-- 激活 @Required @Autowired,JSR 250's @PostConstruct, @PreDestroy and @Resource 等标注 -->  
+        <context:annotation-config />  
+        <!-- 默认的注解映射的支持 是一种简写形式，完全可以手动配置替代这种简写形式，简写形式可以快速应用默认配置方案。<mvc:annotation-driven /> 会自动注册DefaultAnnotationHandlerMapping与AnnotationMethodHandlerAdapter 两个bean,是spring MVC为@Controllers分发请求所必须的。
+               并提供了：数据绑定支持，@NumberFormatannotation支持，@DateTimeFormat支持，@Valid支持，读写XML的支持（JAXB），读写JSON的支持（Jackson）。
+         -->  
+	    <mvc:annotation-driven/>
+	   
+	    
+        <!-- 把标记了@Controller注解的类转换为bean -->   
+		<!-- 对定义包中的所有类进行扫描，以完成Bean创建和自动依赖注入的功能  只搜索@Controller 标注的类 不搜索其他标注的类-->   
+		<context:component-scan base-package="com.echain.*" >
+			<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
+  			<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service" /> 
+		</context:component-scan>
+			<!-- 启用缓存注解功能 
+		<cache:annotation-driven cache-manager="cacheManager"/>-->
+		
+		<!-- 启动Spring MVC的注解功能，完成请求和注解POJO的映射 -->     
+		<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" ></bean>
+       
+		<!-- 根据客户端的不同的请求决定不同的view进行响应, 如 http://www.sxrczx.com/rest.json http://www.sxrczx.com/rest.xml
+			ignoreAcceptHeader:设置为true以忽略对Accept Header的支持
+			defaultContentType:在没有扩展名时即: "http://www.sxrczx.com/rest" 时的默认展现形式
+			favorParameter:用于开启 http://www.sxrczx.com/rest?format=json 的支持-->
+		<bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver"
+			 p:order="0"
+			 p:defaultContentType="text/html"
+			 p:ignoreAcceptHeader="true"
+			 p:favorParameter="true"
+			 p:favorPathExtension="false"
+			 p:parameterName="content" >  
+			<!-- 扩展名至mimeType的映射,即 http://www.sxrczx.com/rest.json 映射为 application/json -->
+			<property name="mediaTypes">  
+				<map>  
+				<entry key="json" value="application/json" />  
+				<entry key="xml" value="application/xml" />  
+				</map>  
+			</property>  
+			<property name="viewResolvers">  
+				<list>  
+					<bean class="org.springframework.web.servlet.view.BeanNameViewResolver" />  
+					<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">  
+						<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>  
+						<property name="prefix" value="/WEB-INF/magazine/"/>  
+						<property name="suffix" value=".jsp"></property>  <!--可为空,方便实现自已的依据扩展名来选择视图解释类的逻辑  -->
+					</bean>  
+				</list>  
+			</property>  
+			<property name="defaultViews">  
+				<list>  
+					<!-- for application/json -->
+					<bean class="org.springframework.web.servlet.view.json.MappingJacksonJsonView" />  
+					<!-- for application/xml -->
+					<bean class="org.springframework.web.servlet.view.xml.MarshallingView" >  
+					<property name="marshaller">  
+						<bean class="org.springframework.oxm.xstream.XStreamMarshaller"/>  
+					</property>  
+					</bean> 			
+				</list>  
+			</property>  
+		</bean>
+       
+	 <!-- 总管理类，如果将lazy-init='false'，那么容器启动就会执行调度程序
+	 <bean id="startQuertz" lazy-init="false" autowire="no" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+	 	<property name="triggers">
+	 		<list>
+	 			<ref bean="doTime"/>
+	 		</list>
+	 	</property>
+	 </bean> -->
+	   
+       <!-- EXCEL -->
+       <bean class="org.springframework.web.servlet.view.BeanNameViewResolver" p:order="10"></bean>
+       
+       
+       <!-- 上传文件时需要用到的分解器，默认将编码转为utf-8 上传大小上限为5MB单位为字节 -->       
+	   <bean id="multipartResolver"
+			class="org.springframework.web.multipart.commons.CommonsMultipartResolver"
+			p:defaultEncoding="utf-8" />
+			
+		
+		<mvc:resources  mapping="/resources/**" location="/resources/"  />
+		<mvc:resources  mapping="/resources_admin/**" location="/resources_admin/"  />
+     	<!-- 对静态资源文件的访问  方案二 （二选一）  
+		<mvc:resources mapping="/images/**" location="/resources/images/" cache-period="31556926"/>
+		<mvc:resources mapping="/images/**" location="/resources/icons/" cache-period="31556926"/>  
+		<mvc:resources mapping="/images/**" location="/resources/login/" cache-period="31556926"/>    
+		<mvc:resources mapping="/images/**" location="/resources/skins/" cache-period="31556926"/>   
+		<mvc:resources mapping="/js/**" location="/resources/js/" cache-period="31556926"/>     
+		<mvc:resources mapping="/css/**" location="/resources/css/" cache-period="31556926"/>
+		<mvc:resources mapping="/styles/**" location="/resources/css/"/>  -->
+		<mvc:default-servlet-handler />  
+		
+       
+        <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping"/>
+        
+        <mvc:interceptors> 
+        <!-- 拦截处理其他页面 -->  
+         <mvc:interceptor> 
+            <mvc:mapping path="/*" />
+        	<bean class="com.echain.interceptor.SystemInterceptor" /> 
+        </mvc:interceptor> 
+        </mvc:interceptors> 
+
+<!-- 定时器开关
+      <task:annotation-driven /> 
+    <bean id="taskJob" class="com.hisodata.controller.task.TaskJob"></bean>  
+    <task:scheduled-tasks>  
+        <task:scheduled ref="taskJob" method="taskJob" cron="0 10/30 * * * ?" /> 
+    </task:scheduled-tasks>  
+    -->  
+    
+     	<!-- cacheManager工厂类 
+	<bean id="cacheManagerFactory" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean" 
+		p:configLocation="classpath:ehcache.xml" /> --> 
+
+	<!-- 声明cacheManager 
+	<bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheCacheManager" 
+		p:cacheManager-ref="cacheManagerFactory" /> -->
+		
+</beans>       

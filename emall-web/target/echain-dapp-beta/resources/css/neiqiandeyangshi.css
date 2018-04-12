@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.plg_lb_cls{left:18px !important; top:3px !important;}
+.MicroCon_lg{width:100% !important; height:507px !important;background:url(../images/login5.jpg) no-repeat center top #d9dde7;}
+
+.MicroServe_top MicroServe_top2{height:60px; display: none;}
+.Micro_logo{height:60px; width:190px;}
+ 
+
+
+.BusinessBox close_2Y{display:none; left:50%; margin-left:-218px; top:50px; position: fixed; _position: absolute; background: #fff;}
+
+#Mask_pop_ui{display:none; position:fixed; top:0;left:0; width:100%;height:100%;background-color:#000;opacity:0.5;  filter:alpha(opacity=50);}
+#WOSBtn{position: absolute; right: 1px; top: 300px; width: 0px; height: 0px; cursor: pointer; z-index: 1000;}
+#WOSBtn .online_s{display:block; width:0px; height:0px; border:0px; background-image:url(../images/callservice_2.png); background-repeat:no-repeat; background-position: -7px -10px; border:none;}
+
+
+/*导航-------------------*/
+.MicroTop_span._Steward{position:relative;}

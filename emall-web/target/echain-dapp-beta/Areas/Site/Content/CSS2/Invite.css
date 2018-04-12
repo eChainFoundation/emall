@@ -1,0 +1,64 @@
+﻿@charset "utf-8";
+select, option { font:inherit; color:inherit; }
+.promotion { border:1px solid #c6c6c6; }
+.warning { color:#f00; }
+.float-left { float:left; }
+.float-right { float:right; }
+.data-grid { clear:both; width:100%; }
+.data-grid, .data-grid th, .data-grid td { border:1px solid #cbcbcb; border-collapse:collapse; }
+.data-grid .important, .data-grid .important td { background:#fff7ee; }
+.data-grid th, .data-grid td { font-weight:normal; padding:10px; }
+.centered th, .centered td, .centered { text-align:center; }
+.align-left th, .align-left td, .data-grid .align-left { float:none; text-align:left; }
+.crimson th { padding:6px 10px; color:#fff; background:#982723; }
+.crimson th.glow-left { background:#982723 url("/Areas/Site/Content/Images2/tbl_glow_l.png") repeat-y 0 0; }
+.crimson th.glow-right { background:#982723 url("/Areas/Site/Content/Images2/tbl_glow_r.png") repeat-y 100% 0;}
+.silver th { padding:6px 10px; background:#e9e9e9 url("/Areas/Site/Content/Images2/tbl_silver_bg.png") repeat-x 0 0; }
+.expended { padding-left:18px; background:url("/Areas/Site/Content/Images2/bangzhu_icon2.gif") no-repeat 0 center; }
+
+.invite-wrapper-full { clear:both; }
+.invite-wrapper-full h3 { font-size:14px; }
+.invite-wrapper-full .eyecatch { height:320px; overflow:hidden; background:url("/Areas/Site/Content/Images2/invite_eyecatech.jpg") no-repeat 0 0; }
+.content-inner { padding:7px; border:1px solid #dcdcdc; background:#fff; }
+.event-box { padding:14px 0; color:#5c5c5c; background:#e3e3e3 url("/Areas/Site/Content/Images2/event_bg.png") repeat-x 0 0; }
+.event-box ul { height:100px; }
+.event-box ul li { float:left; padding:0 40px; width:402px; height:100px; line-height:1.6; }
+.event-box ul li.first-of-type { width:370px; border-right:1px solid #c0c0c0; }
+.event-box ul li h3 { margin-bottom:10px; padding-left:24px; background:url("/Areas/Site/Content/Images2/bullet.png") no-repeat 0 center; }
+.event-box ul li p { margin:0; }
+.invite-instruction { padding:0 25px; }
+.instruction-header { padding-bottom:20px; background: url("/Areas/Site/Content/Images2/neititlebg.jpg") no-repeat 0 100%; }
+.instruction-header p { margin:1em 0; }
+.progress .data-grid td { height:2em; }
+.progress .data-grid td.align-left { height:3em; }
+.progress-header { margin-bottom:10px; padding-left:45px; line-height:1.4; }
+.step1, .step2 { width:440px; }
+.step1 table .warning { display:block; padding-left:2em; }
+.step3 { clear:both; }
+.step1 .progress-header { background:url("/Areas/Site/Content/Images2/bullet_1.png") no-repeat 0 0; }
+.step2 .progress-header { background:url("/Areas/Site/Content/Images2/bullet_2.png") no-repeat 0 0; }
+.step3 .progress-header { background:url("/Areas/Site/Content/Images2/bullet_3.png") no-repeat 0 0; }
+.level-instruction { border-bottom:1px solid #ccc; line-height:1.6; }
+.level-instruction p { margin-bottom:1em; }
+.level-instruction .float-left { width:520px; }
+.level-instruction .float-right { width:360px; }
+.case-instruction { background:url("/Areas/Site/Content/Images2/case_instrument_bg.jpg") no-repeat 0 100%; zoom:1; }
+.case-instruction p { margin-bottom:1em; }
+.case-instruction .float-left { padding-bottom:240px; width:360px; }
+.case-instruction .float-right { width:520px; }
+
+.content-wrapper { clear:both; }
+.content-wrapper a { color:#007ac7; text-decoration:underline; }
+.content-wrapper h4 { margin-bottom:10px; font-size:12px; }
+.content-wrapper .item { margin-bottom:20px; }
+.content-wrapper .item-last-of-type { margin:0; }
+.content-wrapper .item-header { margin-bottom:10px; word-spacing:20px; }
+.content-wrapper .item-header h4 { display:inline; _margin-right:20px;/* IE6 SUCKS */ }
+.content-wrapper .promotion img { width:765px; overflow:hidden; }
+.invite-wrapper { padding-top:10px; }
+.invite-wrapper .content-inner { padding:20px; border-top:0; }
+.invite-url { padding:15px 40px; border:1px solid #cbcbcb; }
+.invite-url input, .invite-url img { vertical-align:middle; }
+.invite-url .text { margin:0 10px 0 0; padding:0 14px; border:1px solid #fbfbfb; background:#e5e5e5; color:inherit; font:inherit; height:27px; line-height:27px; width:400px; }
+.current-level { padding:10px 40px 16px; border:1px solid #cbcbcb; word-spacing:20px; }
+.current-level img { position:relative; bottom:-4px; margin-right:2px; }

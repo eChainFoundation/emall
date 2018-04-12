@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top_idCardInfo {float:left; width:auto; height:auto; margin-bottom: 30px;}
+.myhp_pageTitle {height: 30px; width: 920px; line-height: 25px; text-align:center; font-size: 16px; font-weight:bold; color:#3e9069;}
+.topInfo_detail {float:left; width: 800px; height:auto;}
+.concernTxt a {text-align:center; height: 35px; width:auto; line-height: 35px; font-weight: bold; color: #0063dc;}
+
+.ld_pic {float:left; width: 160px; height: auto; padding: 10px 5px 0px 5px;}
+.ld_pic img {margin-bottom: 10px;}
+.idCard_btn {float:left; text-align:center; height: 35px; width:auto; line-height: 35px;}
+.sendMail_btn {margin-left: 10px; width: 119px; height: 32px; background: url(../images/sendMail.gif) top left no-repeat; border: none; font-weight: normal; cursor: pointer;}
+.userFlag_btn {margin-left: 10px; width: 119px; height: 32px; background: url(../images/userFlag.gif) top left no-repeat; border: none; font-weight: normal; cursor: pointer;}
+
+.idCardBox {float:left; width:auto; height:auto; margin-top:5px; margin-left: 5px; border: #ccc 1px solid; text-align:center;}
+.idCard_content {float:left; width: 460px; height: auto; padding: 10px 5px 0px 5px;}
+.idCard_tit {height: 20px; text-align:left; padding-left: 5px; color: #0063dc; border-bottom: #ccc 1px solid; font-weight: bold;}
+.idCard_faceimg {margin:5px 0px; float:right; border: #ddd 1px solid; padding: 2px;}
+
+.top_detailBox { float:right; width: 300px; height: auto; margin:0px; padding: 0px;}
+table.InfoTb {WIDTH: 100%;}
+table.InfoTb td {height: 25px; border-bottom: #ccc 1px dashed; padding: 5px 0px 5px 5px; white-space: nowrap; color: #666;}
+
+
+/*后台发邮件 发站内信*/
+
+
+.bidButton:hover { background: url(../images/bid_btn2.gif) 0px 0px no-repeat;}
+.bidButton {WIDTH: 166px; DISPLAY: block; background: url(../images/bid_btn1.gif) 0px 0px no-repeat; HEIGHT: 35px;}
+.tip_bid {margin: 8px auto; color: #0063dc;}
+
+DIV.smallInfo {float:left; margin: auto; padding: 10px 5px 10px 5px; text-align: left; width: 280px;}
+DIV.smallInfo UL.user {PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px;}
+DIV.smallInfo UL.user LI {border-bottom: #dddddd 1px dashed; LIST-STYLE-TYPE: none; padding: 3px 0px; margin: 0px;}
+DIV.smallInfo UL.user OL {PADDING-BOTTOM: 5px; LIST-STYLE-TYPE: none; MARGIN: 5px 0px 5px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px;}
+DIV.smallInfo UL.user DIV {padding: 3px 0px 3px 0px;}
+.fontGray_9d { color: #9d9d9d;}
+.Bookmark {PADDING-LEFT: 10px; BACKGROUND: url(../images/listDetail_ban.gif) 0px -35px repeat-x; HEIGHT: 35px; CLEAR: both;}
+.BookmarkInfo {MARGIN: 10px; WORD-WRAP: break-word; OVERFLOW: hidden;}
+.BookmarkInfo TABLE {width: 100%;}
+.List_BorrowInfo {BORDER-BOTTOM: #ececec 1px solid; BORDER-LEFT: #ececec 1px solid; PADDING-BOTTOM: 10px; LINE-HEIGHT: 200%; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #ececec 1px solid; BORDER-RIGHT: #ececec 1px solid; PADDING-TOP: 10px;}
+.List_BorrowInfo .base_info {padding: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px 0px 10px 70px; WIDTH: 90%;}
+.List_BorrowInfo .base_info li { width: 200px; padding: 0px; LIST-STYLE-TYPE: none; MARGIN: 5px 50px 5px 0px; WHITE-SPACE: nowrap; FLOAT: left;}
+
+.Infobox {margin: 0px 0px 8px 0px;  border: 1px #ccc solid; padding: 5px 10px 5px 10px;}
+.Infobox_tb {margin: 0px 0px 10px 0px;  border: 1px #ccc solid; padding: 10px 10px 15px 10px;}
+/*后台发邮件 发站内信*/
+.Infoboxsec {margin: 0px 0px 8px 0px;  padding: 5px 10px 5px 10px;}
+.Infoboxsec_tb {margin: 0px 0px 10px 0px;  padding: 10px 10px 15px 10px;}
+
+.itemTit {font-weight: noraml; color: #0063dc;}
+.blockTitle {font:"宋体", "微软雅黑", "黑体"; font-size: 14px; color:#3e9069; font-weight: bold; line-height: 40px; padding-left: 20px;}
+.attention {COLOR: #999; FONT-SIZE: 12px; FONT-WEIGHT: normal;}
+.folder a {PADDING-LEFT: 30px; BACKGROUND: url(../images/folder_img.png) 5px 0px no-repeat; letter-spacing: 1px;}
+.approve_table {WIDTH: 80%; BORDER-COLLAPSE: collapse; margin: 0px;}
+.approve_table TR TH {BORDER-BOTTOM: #dddddd 1px dashed; font-weight: bold; letter-spacing: 2px; padding-left: 10px;}
+.approve_table TR TD {BORDER-BOTTOM: #dddddd 1px dashed; padding-left: 10px; font-family:Verdana,Tahoma,Arial,Helvetica,sans-serif, "宋体", "微软雅黑"; font-size: 12px;}
+	
+.BorrowDetail_tb{width: 100%; BORDER-COLLAPSE: collapse; margin: 0px;}
+.BorrowDetail_tb tr th {BORDER-BOTTOM: #dddddd 1px dashed; padding: 0px; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif, "宋体", "微软雅黑"; font-size: 12px; vertical-align: top; text-align: left;}
+.BorrowDetail_tb tr td {BORDER-BOTTOM: #dddddd 1px dashed; padding: 5px 0px; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif, "宋体", "微软雅黑"; font-size: 12px; vertical-align: top;}
+.tenderTb table { margin: 0px auto; width: 100%; color: #6d6d6d; vertical-align: middle; text-align: left;}
+.tenderTb table tr th {text-align:left; height: 38px; background: url(../images/tbCon_thbg.gif) repeat-x;font-size: 12px; font-weight: bold; line-height: 35px; color: #527ac3; padding-left: 10px;}
+.tenderTb table tr td {height: 15px; padding: 2px 0px 2px 10px; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif, "宋体", "微软雅黑";}
+.tenderTb a:link, .tenderTb a:active, .tenderTb a:visited {color: #0063dc; text-decoration: none;}
+.tenderTb a:hover {text-decoration: underline;}
+
+
+
+.myhp_tab {float:left; width:100%; height:35px; font:"宋体"; font-size: 14px; font-weight: bold; color:#3e9069; padding: 0px; margin:0px; background:url(../images/tab_hpbg.gif) 0px 0px no-repeat;}
+.myhp_tab ul{margin:0px; padding:0px; list-style:none; height:35px;}
+.myhp_tab li {margin:0px 5px 0px 0px !important; *margin:0px 5px -1px 0px; padding:0px; float:left; height: 35px;}
+.myhp_tab ul li a {float:left; padding:0px 0px 0px 5px; height: 35px;display:block !important;text-decoration:none;overflow: hidden;	white-space: nowrap;-o-text-overflow: ellipsis;text-overflow: ellipsis;cursor: pointer;background:url(../images/hp_tab_left2.gif) no-repeat left top;}
+.myhp_tab ul li a span {float: left;display: block;background:url(../images/hp_tab_right2.gif) no-repeat right top;margin: 0px;	padding: 2px 20px 0px 18px !important;*padding: 2px 15px -1px 8px;color: #396ba8;font-weight: bold; font-size: 14px; line-height: 30px; height: 35px;}
+.myhp_tab ul li a:hover {color:#3e9069; background:url(../images/hp_tab_left.gif) no-repeat 0% top;height:35px;float:left;}
+.myhp_tab ul li a:hover span {background:url(../images/hp_tab_right.gif) no-repeat 100% top;color:#FFF;height:35px;float:left;}
+
+.myhp_tab .selected a {background:url(../images/hp_tab_left.gif) no-repeat 0% top; color:#FFF; font-size: 14px; font-weight: bold; height: 35px;}
+.myhp_tab .selected a span {background:url(../images/hp_tab_right.gif) no-repeat 100% top; color:#FFF; height: 35px;}

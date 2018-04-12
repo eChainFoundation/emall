@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.released_loanBox {float:left; width: 920px; padding-top: 10px; text-align: left; margin: 0px;}
+.pageTitle {float: left; width: 600px; font:"宋体", "微软雅黑", "黑体"; font-size: 14px; color:#3e9069; height: 25px; font-weight: bold; line-height: 25px; padding-left: 20px; letter-spacing: 1px;}
+.list_ico { background: url(/Areas/Site/Content/images/loanlist_ico.gif) 2px 4px no-repeat;}
+.loanF_body {float:left; width: auto; text-align: left; margin:0px; padding: 10px 0px 10px 10px; border: 0px;}
+
+.loanR_Tb {float:left; width: 700px; font-family: Arial, Helvetica, sans-serif, "宋体"; padding-bottom: 8px;}
+.loanR_Tb table { margin: 0px; width: 100%; color: #6d6d6d; vertical-align: top; text-align: center; border-top: #c0c0c0 1px solid;border-left: #c0c0c0 1px solid;}
+.loanR_Tb table tr th {height: 30px; font-size: 12px; padding: 5px; border-right: #c0c0c0 1px solid; background: url(/Areas/Site/Content/images/tbCon_thbg.gif) repeat-x; font-weight: normal; color: #303d86;}
+.loanR_Tb table tr td {height: 25px; padding: 5px; line-height: 20px; border-right: #c0c0c0 1px solid; border-bottom: #c0c0c0 1px solid;}
+.loanR_Tb a:link, .loanR_Tb a:visited {color: #0063dc; text-decoration: none;}
+.loanR_Tb a:hover, .loanR_Tb a:active {text-decoration: underline;}
+
+.loanR_Tbs {float:left; width: 660px; font-family: Arial, Helvetica, sans-serif, "宋体"; padding-bottom: 8px;}
+.loanR_Tbs table { margin: 0px; width: 100%; color: #6d6d6d; vertical-align: top; text-align: center; border-top: #c0c0c0 1px solid;border-left: #c0c0c0 1px solid;}
+.loanR_Tbs table tr th {height: 30px; font-size: 12px; padding: 5px; border-right: #c0c0c0 1px solid; background: url(/Areas/Site/Content/images/tbCon_thbg.gif) repeat-x; font-weight: normal; color: #303d86;}
+.loanR_Tbs table tr td {height: 25px; padding: 5px; line-height: 20px; border-right: #c0c0c0 1px solid; border-bottom: #c0c0c0 1px solid;}
+.loanR_Tbs a:link, .loanR_Tb a:visited {color: #0063dc; text-decoration: none;}
+.loanR_Tbs a:hover, .loanR_Tb a:active {text-decoration: underline;}
+
+.loanpage_line {background: url(/Areas/Site/Content/images/ld_pageTitbg.jpg) repeat-x; display:block; width: 900px; height: 10px; margin-bottom: 10px;}
+.loanTb_footline {float: left; width: 900px; height: 10px; background:url(/Areas/Site/Content/images/loanTb_footline.gif) no-repeat; }
+
+.preNext_page {float:left; width: 900px; text-align:center; line-height: 15px; vertical-align:top; height: 20px; padding-left: 20px;}
+.preNext_page span {padding: 0px 5px 2px 5px;}
+.preNext a:link, .preNext a:visited {color: #6d6d6d;}
+.preNext a:hover, .preNext a:active {text-decoration: underline;}

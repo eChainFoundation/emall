@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+   <meta name="apple-mobile-web-app-capable" content="yes">
+   <meta name="apple-mobile-web-app-status-bar-style" content="black">
+   <meta content="telephone=no" name="format-detection" />
+	<title>模版5</title>
+    <link rel="stylesheet" href="css/one-5.css">
+    
+</head>
+<body>
+   
+
+      <!--
+导航菜单
+   后台设置的快捷菜单
+-->
+			<section>
+			<div class="plug-div">
+				<div id="plug-phone" class="plug-phone">
+										<input type="checkbox" id="plug-btn" class="plug-menu" style="background-color:#bb8028;">
+											<div style="background-color:#bb8028; " class="">
+															<a href="#" class="icon-phone"><img src="images/phone.png" width="58" height="58"></a>
+													</div>
+											<div style="background-color:#bb8028; " class="">
+															<a href="#" class="icon-map"><img src="images/map.png" width="58" height="58"></a>
+													</div>
+									</div>
+			</div>
+		</section>
+        
+        <script>
+			window.addEventListener("DOMContentLoaded", function(){
+				btn = document.getElementById("plug-btn");
+				btn.onclick = function(){
+					var divs = document.getElementById("plug-phone").querySelectorAll("div");
+					var className = className=this.checked?"on":"";
+					for(i = 0;i<divs.length; i++){
+						divs[i].className = className;
+					}
+					document.getElementById("plug-wrap").style.display = "on" == className? "block":"none";
+				}
+			}, false);
+		</script>
+      
+	<div id="box6">
+               <section>
+			<ul class="list_ul">
+					<li>
+						<a href="moban5-erjiyemian.html">
+							<div>
+								<p>关于我们</p>
+							</div>
+						</a>
+					</li>
+					<li>				
+						<a href="moban5-erjiyemian.html">
+							<div>
+								<p>房型印象</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="moban5-erjiyemian.html">
+							<div>
+								<p>服务之星</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="moban5-erjiyemian.html">
+							<div>
+								<p>时尚生活</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="moban5-erjiyemian.html">
+							<div>
+								<p>会员中心</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="moban5-erjiyemian.html">
+							<div>
+								<p>微酒店</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="moban5-erjiyemian.html">
+							<div>
+								<p>微信墙</p>
+							</div>
+						</a>
+					</li>
+							</ul>
+		</section>
+        <footer style="overflow:visible;">
+            <div class="weimob-copyright" style="padding-bottom:50px;">
+                           <p><a href="#">吃货0769</a></p>
+                            <a href="#">©上海微莞通网络科技有限公司</a>
+            </div>
+    </footer>
+
+    </div>
+  </body>  
+</html>

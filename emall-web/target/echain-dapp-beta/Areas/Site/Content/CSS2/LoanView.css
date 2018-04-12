@@ -1,0 +1,448 @@
+﻿@charset "utf-8";
+
+#DetailEmail{
+	width:70px;
+	height:auto;
+	line-height:28px;
+	padding-top:3px;
+	background:url(../Images2/email.jpg) left 10px no-repeat;
+	float:left;
+	padding-left:30px;}
+			
+#jindutiao{
+	width:100px;
+	height:10px;
+	float:left;
+	margin-top:7px;
+	border:1px solid #BCBCBC;}
+	
+	#DetailInfoTitle{
+	width:905px;
+	height:28px;
+	padding-top:5px;
+	padding-left:25px;
+	font-size:14px;
+	background:url(../Images2/folder.jpg) left center no-repeat;
+	float:left;
+	margin-top:10px;
+	color:#bc2424;
+	font-weight:bold;}
+	
+	.DetailInfoTitle{
+	width:905px;
+	height:28px;
+	padding-top:5px;
+	padding-left:25px;
+	font-size:14px;
+	background:url(../Images2/folder.jpg) left center no-repeat;
+	float:left;
+	margin-top:10px;
+	color:#bc2424;
+	font-weight:bold;}
+	
+	.Reason{
+	width:905px !important;
+	width:905px;
+	height:auto;
+	padding-left:25px;
+	float:left;
+	border:1px solid #d7d7d7;
+	padding-bottom:5px;
+	padding-top:10px;}
+	
+	.MessageMain{
+	width:905px !important;
+	width:905px;
+	height:auto;
+	float:left;
+	border:1px solid #d7d7d7;
+	padding-bottom:5px;
+	padding-top:10px;}
+	
+	.Explain{
+	width:270px;
+	float:right;
+	height:25px;
+	margin-top:3px;
+	text-align:right;
+	font-size:12px;
+	color:#272727;
+	font-weight:normal;
+	padding-right:5px;}
+	
+	.DetailInfoBasic{
+	width:905px;
+	height:25px;
+	padding-top:2px;
+	background:url(../Images2/contentCenterBj.jpg) left top repeat-x;
+	border:1px solid #d7d7d7;
+	float:left;
+	padding-left:25px;}
+	
+	.DetailInfoBasicCont{
+	width:905px;
+	height:auto;
+	padding-top:5px;
+	border-left:1px solid #d7d7d7;
+	border-right:1px solid #d7d7d7;
+	border-bottom:1px solid #d7d7d7;
+	padding-bottom:5px;
+	float:left;
+	padding-left:25px;}
+	
+	.btnBid{background:url(/Areas/Site/Content/Images2/zstb.jpg) no-repeat; border:0}
+	
+	.btnBuy{background:url(/Areas/Site/Content/Images2/wygm.png) no-repeat; border:0}
+	
+	.LineBj{
+	width:930px;
+	height:30px;
+	float:left;
+	margin:20px 0px 0px 0px;
+	background:url(../Images2/lineBj.jpg) center top no-repeat;}
+	
+
+	
+#DetailInfoBasic2{
+	width:905px;
+	height:25px;
+	padding-top:2px;
+	background:url(../Images2/contentCenterBj.jpg) left top repeat-x;
+	border-left:1px solid #d7d7d7;
+	border-right:1px solid #d7d7d7;
+	border-bottom:1px solid #d7d7d7;
+	float:left;
+	padding-left:25px;}
+	
+	
+	
+#HezuoHuoBan{
+	width:882px;
+	height:70px;
+	padding-top:30px;
+	padding-left:100px;
+	margin-bottom:10px;
+	float:left;
+	background:url(images/hzhbbg.jpg) left bottom no-repeat;}
+#BottomLeft{
+	width:640px !important;
+	width:630px;
+	height:27px;
+	padding-left:10px;
+	float:left;}
+#BottomRight{
+	width:290px !important;
+	width:280px;
+	height:27px;
+	float:right;
+	text-align:right;
+	padding-right:10px;}
+#Search{
+	float:right;
+	width:232px !important;
+	width:230px;
+	height:22px;
+	background:url(images/SearchBj.jpg) left center no-repeat;
+	padding:3px 10px 0px 10px !important;
+	padding:3px 5px 0px 5px;}
+#DetailTop{
+	width:982px;
+	height:37px;
+	margin:10px auto auto auto;
+	background:url(images/ContentTopBj.jpg) left top no-repeat;}
+#DetailTitle{
+	width:200px;
+	height:25px;
+	padding-top:3px;
+	font-size:12px;
+	margin-top:3px;
+	float:left;
+	color:#FFF;
+	margin-left:20px;
+}
+.04B08{
+	font-family:"04b08";
+	font-size:8px;}
+#DetailContent980
+{
+    float:left;
+	width:940px;
+	margin:auto;
+	padding:20px;
+	background:#FFF;
+	margin:0px;
+	border-bottom:1px solid #d7d7d7;
+	border-left:1px solid #d7d7d7;
+	border-right:1px solid #d7d7d7;}
+*+html #DetailContent980{
+	width:940px;
+	margin:auto;
+	padding:20px;
+	background:#FFF;
+	margin:0px;
+	border-bottom:1px solid #d7d7d7;
+	border-left:1px solid #d7d7d7;
+	border-right:1px solid #d7d7d7;}
+#DetailUserName{
+	width:930px;
+	height:auto;
+	float:left;}
+#DetailUNLeft{
+	width:340px;
+	height:auto;
+	float:left;}
+#DetailPhoto{
+	width:333px;
+	height:221px;
+	float:left;
+	padding:1px;
+	border:1px solid #BFBFBF;}
+#DetailNameDetailLeft{
+	width:222px;
+	height:auto;
+	border-right:1px dashed #BCBCBC;
+	float:left;
+	margin-top:10px;}
+#DetailNameAreaLeft{
+	width:80px;
+	height:25px;
+	float:left;}
+#DetailNameAreaRight{
+	width:130px;
+	height:25px;
+	float:left;}
+#DetailEmailOuter{
+	width:105px;
+	height:auto;
+	float:right;}
+
+#DetailUNRight{
+	width:530px;
+	height:auto;
+	float:right;}
+#ProjectContent{
+	width:500px;
+	height:auto;
+	float:left;
+	border-bottom:1PX dashed #BBB;}
+#ProjectContent ul{
+	width:500px;
+	height:40PX;
+	float:left;
+	margin:0px 0px 0px 0px !important;
+	margin:0px 0px 0px 0px;
+	list-style-type:none;}
+*+html #ProjectContent ul{
+	width:500px;
+	height:auto;
+	float:left;
+	margin:0px 0px 0px 0px !important;
+	list-style-type:none;}
+#ProjectContent li{
+	width:240px;
+	height:30px;
+	margin-top:6PX;
+	list-style-type:none;
+	float:left;}
+#Toubiao{
+	width:400px;
+	height:45px;
+	float:left;
+	margin-top:20px;}
+
+#Detail6SubMenu{
+	width:930px;
+	height:41px;
+	float:left;
+	margin-top:10px;
+	background:url(images/lineBj2.jpg) center bottom no-repeat;}
+
+
+#DetailInfoBasic ul{
+	list-style-type:none;
+	margin:0px 0px 0px 0px !important;
+	margin:0px 0px 0px 0px;
+	float:left; }
+*+html #DetailInfoBasic ul{
+	list-style-type:none;
+	margin:0px 0px 0px 0px !important;
+	margin:0px 0px 0px 0px;
+	float:left; }
+
+
+#DetailInfoBasicCont ul{
+	list-style-type:none;
+	margin:0px 0px 0px 0px !important;
+	margin:0px 0px 0px 0px;
+	float:left;}
+*+html #DetailInfoBasicCont ul{
+	list-style-type:none;
+	margin:0px 0px 0px 0px !important;
+	margin:0px 0px 0px 0px;
+	float:left;}
+#DetailInfoBasicContArea{
+	width:905px;
+	height:auto;
+	line-height:25px;
+	float:left;}
+#DetailInfoBasicContArea ul{
+	width:905px;
+	height:auto;
+	list-style-type:none;
+	margin:0px 0px 0px 0px !important;
+	margin:0px 0px 0px 0px;
+	float:left;}
+*+html #DetailInfoBasicContArea ul{
+	width:905px;
+	height:auto;
+	list-style-type:none;
+	margin:0px 0px 0px 0px !important;
+	margin:0px 0px 0px 0px;
+	float:left;}
+#DetailInfoBasicContArea li{
+	width:225px;
+	height:27px;
+	list-style-type:none;
+	float:left;}
+
+/*#Reason{
+	width:905px !important;
+	width:905px;
+	height:auto;
+	padding-left:25px;
+	float:left;
+	border:1px solid #d7d7d7;
+	padding-bottom:5px;
+	padding-top:10px;}*/
+#Reason ul{
+	float:left;
+	list-style-type:none;
+	margin:0px 0px 0px 0px !important;
+	margin:0px 0px 0px 0px;}
+*+html #Reason ul{
+	float:left;
+	list-style-type:none;
+	margin:0px 0px 0px 0px !important;
+	margin:0px 0px 0px 0px;}
+#BookLine{
+	width:900px;
+	height:auto;
+	border-bottom:1px solid #d7d7d7;
+	float:left;
+	margin-top:15px;}
+#BookLineQuestion{
+	width:905px;
+	height:auto;
+	margin-top:10px;
+	float:left;}
+.EditBox{
+    border: 1px solid #d7d7d7;
+    cursor: text;
+	width:890px;
+    height: 100px;
+    padding: 1px;
+	line-height:25px;
+	background:#F2F2F2;
+}
+#SubMenuBox{
+	width:400px;
+	height:35px;
+	float:left;
+	background:url(images/SubmenuBj.png) left top repeat-x;
+	z-index:9999;
+    border: 1px solid #d7d7d7;
+	padding:5px 10px 0px 10px;}
+#SubMenuBox ul{
+	width:400px;
+	list-style-type:none;
+	margin:0px 0px 0px -40px !important;
+	margin:0px 0px 0px 0px;
+	float:left;}
+*+html #SubMenuBox ul{
+	width:400px;
+	list-style-type:none;
+	margin:0px 0px 0px 0px !important;
+	margin:0px 0px 0px 0px;
+	float:left;}
+#SubMenuBox li{
+	width:auto;
+	list-style-type:none;
+	margin-right:10px;
+	float:left;}
+.lilv_red2{
+	font-family:Georgia; 
+	font-size:24px;
+	color:#c62100;
+	line-height:30px;
+	margin-left:5px;}
+.lilv_red{
+	font-family:Georgia;
+	font-size:30px;
+	color:#c62100;
+	line-height:30px;}
+	
+#DenouncedSelfAttention{width:280px; float:left; border:1px solid #85B6E2; background-color:#fff; padding: 0px 0px 10px 0px;}
+#DenouncedSelfAttention ul{float:left; padding-left: 25px; margin: 0px; list-style: none;}
+#DenouncedSelfAttention li{float:left;width:250px;list-style: none; margin: 5px 0px;}
+#DenouncedSelfAttention div {width:250px;float:left; margin:0px; font:bold 16px "Microsoft YaHei"; line-height: 35px; padding:5px 0px 10px 30px; color:#4a5daa; background: url(/Areas/Site/Content//Areas/Site/Content/Images2/divAttentionBg.gif) repeat-x;}
+#DenouncedSelfAttention .closeBtn{ float:right; margin:5px 10px 0px 0px; margin:-30px 10px 0px 0px; padding: 0px; display:block; width:15px; height: 15px; background: url(/Areas/Site/Content//Areas/Site/Content/Images2/btn_close.gif) no-repeat;border:none;color:#333;}
+
+#divAttentionAgain{width:280px; float:left; border:1px solid #85B6E2; background-color:#fff; padding: 0px 0px 10px 0px;}
+#divAttentionAgain ul{float:left; padding-left: 25px; margin: 0px; list-style: none;}
+#divAttentionAgain li{float:left;width:250px;list-style: none; margin: 5px 0px;}
+#divAttentionAgain div {width:250px;float:left; margin:0px; font:bold 16px "Microsoft YaHei"; line-height: 35px; padding:5px 0px 10px 30px; color:#4a5daa; background: url(/Areas/Site/Content//Areas/Site/Content/Images2/divAttentionBg.gif) repeat-x;}
+#divAttentionAgain .closeBtn{ float:right; margin:5px 10px 0px 0px; margin:-30px 10px 0px 0px; padding: 0px; display:block; width:15px; height: 15px; background: url(/Areas/Site/Content//Areas/Site/Content/Images2/btn_close.gif) no-repeat;border:none;color:#333;}
+ 
+#TipsdivAttention{width:535px; height:500px; float:left; border:1px solid #85B6E2; background-color:#fff; padding: 0px 0px 10px 0px;}
+#TipsdivAttention ul{float:left; padding-left: 30px; margin: 0px; list-style: none;}
+#TipsdivAttention li{float:left;width:350px;list-style: none; margin: 5px 0px;}
+#TipsdivAttention div {width:370px;float:left; margin:0px; line-height: 30px; padding:0px 0px 10px 30px; color:#4a5daa; background: url(/Areas/Site/Content/Images/divAttentionBg.gif) repeat-x;}
+#TipsdivAttention .closeBtn{ float:right; margin:5px 10px 0px 0px; margin:-30px 10px 0px 0px; padding: 0px; display:block; width:15px; height: 15px; background: url(/Areas/Site/Content/Images/btn_close.gif) no-repeat;border:none;color:#333;}
+#TipsdivAttention .divUp_Btn input {float:left; margin: 5px 10px 5px 0px; padding: 0px; display: block; width: 70px; height: 25px; background:url(images/divUp_Btn.gif) 0px 0px no-repeat;  font:noaml 12px "宋体"; color:#4a5daa; border:none;}
+#TipsdivAttention h4{color:Green; font-size:12px; font-weight:bold;}
+#TipsdivAttention div span{font-weight:bold;}
+
+#divAttention{width:400px; float:left; border:1px solid #85B6E2; background-color:#fff; padding: 0px 0px 10px 0px;}
+#divAttention ul{float:left; padding-left: 30px; margin: 0px; list-style: none;}
+#divAttention li{float:left;width:350px;list-style: none; margin: 5px 0px;}
+#divAttention div {width:370px;float:left; margin:0px; font:bold 16px "Microsoft YaHei"; line-height: 35px; padding:5px 0px 10px 30px; color:#4a5daa; background: url(/Areas/Site/Content//Areas/Site/Content/Images2/divAttentionBg.gif) repeat-x;}
+#divAttention .closeBtn{ float:right; margin:5px 10px 0px 0px; margin:-30px 10px 0px 0px; padding: 0px; display:block; width:15px; height: 15px; background: url(/Areas/Site/Content//Areas/Site/Content/Images2/btn_close.gif) no-repeat;border:none;color:#333;}
+#divAttention .divUp_Btn input {float:left; margin: 5px 10px 5px 0px; padding: 0px; display: block; width: 70px; height: 25px; background:url(/Areas/Site/Content/Images2/divUp_Btn.gif) 0px 0px no-repeat;  font:noaml 12px "宋体"; color:#4a5daa; border:none;}
+
+#MyFriendPopup{width:280px; float:left; border:1px solid #85B6E2; background-color:#fff; padding: 0px 0px 10px 0px;}
+#MyFriendPopup ul{float:left; padding-left: 30px; margin: 0px; list-style: none;}
+#MyFriendPopup li{float:left;width:350px;list-style: none; margin: 5px 0px;}
+#MyFriendPopup div {width:250px;float:left; margin:0px; font:bold 16px "Microsoft YaHei"; line-height: 35px; padding:5px 0px 10px 30px; color:#4a5daa; background: url(/Areas/Site/Content//Areas/Site/Content/Images2/divAttentionBg.gif) repeat-x;}
+#MyFriendPopup .closeBtn{ float:right; margin:5px 10px 0px 0px; *margin:-30px 10px 0px 0px; padding: 0px; display:block; width:15px; height: 15px; background: url(/Areas/Site/Content//Areas/Site/Content/Images2/btn_close.gif) no-repeat;border:none;color:#333;}
+#MyFriendPopup .divUp_Btn input {float:left; margin: 5px 10px 5px 0px; padding: 0px; display: block; width: 70px; height: 25px; background:url(/Areas/Site/Content/Images2/divUp_Btn.gif) 0px 0px no-repeat;  font:noaml 12px "宋体"; color:#4a5daa; border:none;}
+  
+#FriendInformation1{width:280px; float:left; border:1px solid #85B6E2; background-color:#fff; padding: 0px 0px 10px 0px;}
+#FriendInformation1 ul{float:left; padding-left: 30px; margin: 0px; list-style: none;}
+#FriendInformation1 li{float:left;width:350px;list-style: none; margin: 5px 0px;}
+#FriendInformation1 div {width:250px;float:left; margin:0px; font:bold 16px "Microsoft YaHei"; line-height: 35px; padding:5px 0px 10px 30px; color:#4a5daa; background: url(/Areas/Site/Content//Areas/Site/Content/Images2/divAttentionBg.gif) repeat-x;}
+#FriendInformation1 .closeBtn{ float:right; margin:5px 10px 0px 0px; *margin:-30px 10px 0px 0px; padding: 0px; display:block; width:15px; height: 15px; background: url(/Areas/Site/Content//Areas/Site/Content/Images2/btn_close.gif) no-repeat;border:none;color:#333;}
+#FriendInformation1 .divUp_Btn input {float:left; margin: 5px 10px 5px 0px; padding: 0px; display: block; width: 70px; height: 25px; background:url(/Areas/Site/Content/Images2/divUp_Btn.gif) 0px 0px no-repeat;  font:noaml 12px "宋体"; color:#4a5daa; border:none;}
+        
+#AttentionSelfAttention{width:280px; float:left; border:1px solid #85B6E2; background-color:#fff; padding: 0px 0px 10px 0px;}
+#AttentionSelfAttention ul{float:left; padding-left: 30px; margin: 0px; list-style: none;}
+#AttentionSelfAttention li{float:left;width:350px;list-style: none; margin: 5px 0px;}
+#AttentionSelfAttention div {width:250px;float:left; margin:0px; font:bold 16px "Microsoft YaHei"; line-height: 35px; padding:5px 0px 10px 30px; color:#4a5daa; background: url(/Areas/Site/Content/Images/divAttentionBg.gif) repeat-x;}
+#AttentionSelfAttention .closeBtn{ float:right; margin:5px 10px 0px 0px; *margin:-30px 10px 0px 0px; padding: 0px; display:block; width:15px; height: 15px; background: url(/Areas/Site/Content/Images/btn_close.gif) no-repeat;border:none;color:#333;}
+#AttentionSelfAttention .divUp_Btn input {float:left; margin: 5px 10px 5px 0px; padding: 0px; display: block; width: 70px; height: 25px; background:url(images/divUp_Btn.gif) 0px 0px no-repeat;  font:noaml 12px "宋体"; color:#4a5daa; border:none;}
+        
+#FriendInformation2{width:280px; float:left; border:1px solid #85B6E2; background-color:#fff; padding: 0px 0px 10px 0px;}
+#FriendInformation2 ul{float:left; padding-left: 30px; margin: 0px; list-style: none;}
+#FriendInformation2 li{float:left;width:350px;list-style: none; margin: 5px 0px;}
+#FriendInformation2 div {width:250px;float:left; margin:0px; font:bold 16px "Microsoft YaHei"; line-height: 35px; padding:5px 0px 10px 30px; color:#4a5daa; background: url(/Areas/Site/Content//Areas/Site/Content/Images2/divAttentionBg.gif) repeat-x;}
+#FriendInformation2 .closeBtn{ float:right; margin:5px 10px 0px 0px; *margin:-30px 10px 0px 0px; padding: 0px; display:block; width:15px; height: 15px; background: url(/Areas/Site/Content//Areas/Site/Content/Images2/btn_close.gif) no-repeat;border:none;color:#333;}
+#FriendInformation2 .divUp_Btn input {float:left; margin: 5px 10px 5px 0px; padding: 0px; display: block; width: 70px; height: 25px; background:url(/Areas/Site/Content/Images2/divUp_Btn.gif) 0px 0px no-repeat;  font:noaml 12px "宋体"; color:#4a5daa; border:none;}
+        
+#FriendSelf{width:280px; float:left; border:1px solid #85B6E2; background-color:#fff; padding: 0px 0px 10px 0px;}
+#FriendSelf ul{float:left; padding-left: 30px; margin: 0px; list-style: none;}
+#FriendSelf li{float:left;width:350px;list-style: none; margin: 5px 0px;}
+#FriendSelf div {width:250px;float:left; margin:0px; font:bold 16px "Microsoft YaHei"; line-height: 35px; padding:5px 0px 10px 30px; color:#4a5daa; background: url(/Areas/Site/Content/Images/divAttentionBg.gif) repeat-x;}
+#FriendSelf .closeBtn{ float:right; margin:5px 10px 0px 0px; *margin:-30px 10px 0px 0px; padding: 0px; display:block; width:15px; height: 15px; background: url(/Areas/Site/Content/Images/btn_close.gif) no-repeat;border:none;color:#333;}
+#FriendSelf .divUp_Btn input {float:left; margin: 5px 10px 5px 0px; padding: 0px; display: block; width: 70px; height: 25px; background:url(images/divUp_Btn.gif) 0px 0px no-repeat;  font:noaml 12px "宋体"; color:#4a5daa; border:none;}    
+
+form{display:inline} 
+.DeleteRevert {cursor:pointer; color:#527ac3;} 

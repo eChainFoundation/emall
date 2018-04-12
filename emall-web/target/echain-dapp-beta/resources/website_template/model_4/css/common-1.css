@@ -1,0 +1,43 @@
+/************************************************************/
+*{padding:0; margin:0; border:0; list-style:0;}
+html, body{ height:100%;}
+footer{
+    height:35px;
+    overflow:hidden;
+    margin-top:-35px;
+    position:relative;
+    z-index:10;
+}
+footer .weimob-copyright{
+    color:#000;}
+footer a{color:#000; font-size:12px;}
+
+
+/****************************************for font template****************************************************/
+
+.body{
+	max-width:640px;
+	margin:auto;
+	min-height:100%;
+	background-color:#fff;
+	position:relative;
+-webkit-box-sizing:border-box;
+}
+
+
+/*#head----------------------------------------------*/
+#head2{width:100%; background:url(../images/head_bg.jpg) repeat-x; height:48px; line-height:48px;}
+.headIn2{ padding:0 15px;}
+.headIn2 h3{ color:#fff; width:100%; text-align:center;}
+.headIn2 a{height:26px; width:39px; display:inline-block;}
+.return2{ background:url(../images/fanhui.png); position:absolute; top:10px; left:10px;}
+.advance2{ background:url(../images/qianjin.png);position:absolute; top:10px; right:10px;}
+
+/*#logo---------------------------------------------*/
+#logo{ background:#fff; padding:10px; overflow:hidden;}
+.logoIn{ width:100%;}
+.logoIn h1{ float:left; width:50%;}
+.logoIn .Left{ float:right; width:46%; margin-top:12px; margin-left:12px;}
+.logoIn .Left input{ height:25px; border:1px solid #d5d5d5; color:#e1e1e1; line-height:25px; padding-left:3px; border-radius:3px 0 0 3px; float:left; width:70%;}
+.logoIn .Left button{ height:27px; background:#88C546; color:#fff;float:left; border-radius:0 3px 3px 0; width:25%;}
+

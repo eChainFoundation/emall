@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+ ul li{
+ 	list-style:none;
+ 	height:35px;
+ 	padding-left:350px;
+ 
+ }
+
+#div01{
+	margin-top:10px;	
+}
+

@@ -1,0 +1,173 @@
+input.btn_save
+{
+    width: 100px;
+    height: 36px;
+    line-height: 26px;
+    font-size: 20px;
+    font-family: "黑体";
+    text-align: center;
+    margin-right: 5px;
+    background: url(../../../img/disp/project/images/form_btn.png) no-repeat;
+    color: #FFF;
+    border:0;
+    cursor:pointer;
+}
+
+input.btn_save:hover
+{
+    background: url(../../../img/disp/project/images/form_btn_on.png) no-repeat;
+}
+
+input.btn_search
+{
+    background: url(../../../img/disp/project/images/search.png) no-repeat;
+    color: blue;
+    border:0;
+    height: 26px;
+    line-height: 26px;
+    width: 74px;
+    padding-left: 13px;
+    margin-left: 3px;
+    cursor: pointer;
+    font-weight: bold; 
+}
+
+input.btn_search_large
+{
+    height: 26px;
+    line-height: 26px;
+    width: 110px;
+    padding-left: 18px;
+    margin-left: 3px;
+}
+
+input.btn_modify, input.btn_delete,input.btn_pause,input.btn_detail
+{
+    margin-left: 3px;
+    width: 55px;
+    cursor: pointer;
+}
+
+input.btn_search_large,input.btn_search_large:hover,input.btn_search_large:active
+{
+    background: url(../../../img/disp/project/images/search_large.png) no-repeat;
+    color: #0a97c9;
+    border:0;
+}
+input.btn_search:hover,input.btn_search_large:hover
+{
+    color: #0a97ff;
+    font-weight: bold; 
+}
+
+input.btn_modify,input.btn_modify:hover
+{
+    background: url(../../../img/disp/project/images/modification.png) no-repeat left center;
+    color: #000;
+    border:0;
+}
+input.btn_delete,input.btn_delete:hover
+{
+    background: url(../../../img/disp/project/images/delete.png) no-repeat left center;
+    color: #000;
+    border:0;
+}
+
+input.btn_pause,input.btn_pause:hover
+{
+    background: url(../../../img/disp/project/images/searchbox_button.png) no-repeat left center;
+    color: #000;
+    border:0;
+}
+input.btn_detail,input.btn_detail:hover
+{
+    background: url(../../../img/disp/project/images/detail01.png) no-repeat left center;
+    color: #000;
+    border:0;
+}
+
+/**错误提示信息样式*/
+.error_msg
+{
+    color:Red;
+    background-image:url("../../../static/img/login/global/wrong.gif") ;
+    background-repeat:no-repeat;
+    background-position:left center;
+    /**border:1px solid red;*/
+    line-height: 28px;
+    overflow: hidden;
+    text-align: left;
+    /**padding:5px;*/
+    padding-left:20px;	
+	visibility:hidden;
+}
+
+/**输入提示信息样式*/
+.input_msg{
+    color:Blue;
+    background-image:url("../../../img/disp/project/images/warning.png") ;
+    background-repeat:no-repeat;
+    background-position:left center;
+   /** border:1px solid #cc00ff;*/
+    line-height: 28px;
+    overflow: hidden;
+    text-align: left;
+    /**padding:5px;*/
+    padding-left:20px;	
+	visibility:hidden;
+}
+
+/**输入正确提示信息样式*/
+.ok_msg{
+    color:Blue;
+    background-image:url("../../../static/img/login/global/ok.png") ;
+    background-repeat:no-repeat;
+    background-position:left center;
+    line-height: 28px;
+    overflow: hidden;
+    text-align: left;
+    padding-left:20px;	
+	visibility:hidden;
+}
+
+
+/**默认输入文本框样式*/
+.input_defaultr{
+    border:1px solid silver;
+    width:150px; 
+}
+
+/**输入错误时输入文本框样式*/
+.input_error{
+    /**border-color:red;*/
+    border:1px solid red;
+   
+}
+
+/**字段名称样式*/
+.name_txt{
+	display:inline-block;
+	width:120px; 
+	text-align: right;
+}
+
+/**输入文本框样式*/
+.input_txt{
+	border-color:#00ff33;
+	}
+	
+/**显示详细信息时的字段名称样式*/
+.name_txt2{
+	border:1px solid silver;
+	display:inline-block;
+	width:80px; 
+	text-align: right;
+	color:#ff00cc;
+}
+
+/**显示信息详情时的span样式*/
+.span_border{	
+	padding:3px;
+	border:1px solid silver;	
+	color:blue;
+}	

@@ -1,0 +1,498 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="微盟、微信营销、微信代运营、微信定制开发、微信托管、微网站、微商城、微营销" name="Keywords">
+	<meta content="微盟，国内最大的微信公众智能服务平台，微盟八大微体系：微菜单、微官网、微会员、微活动、微商城、微推送、微服务、微统计，企业微营销必备。" name="Description">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap_min.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap_responsive_min.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/todc_bootstrap_button.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/themes.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/inside.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/xin/insidepage_kindeditor_themes.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/xin/resource.css" media="all" />
+<script type="text/javascript" src="js/jQuery.js"></script>
+<script type="text/javascript" src="js/bootstrap_min.js"></script>
+<script type="text/javascript" src="js/plugins/form/jquery_form_min.js"></script>
+<script type="text/javascript" src="js/jquery_validate_min.js"></script>
+<script type="text/javascript" src="js/jquery_validate_methods.js"></script>
+<script type="text/javascript" src="js/inside.js"></script>
+<script type="text/javascript" src="js/xin/map.js"></script>
+<title>微盟（Weimob）—国内最大的微信公众服务平台</title>
+	<link rel="shortcut icon" href="http://stc.weimob.com/img/favicon.ico" />
+    <!--[if lte IE 9]><script src="http://stc.weimob.com/src/watermark.js"></script><![endif]-->
+	<!--[if IE 7]><link href="http://stc.weimob.com/css/font_awesome_ie7.css" rel="stylesheet" /><![endif]-->
+</head>
+<body>
+	<script src="http://api.map.baidu.com/api?key=24ffad3855e675265336a4cfb46d32b4&v=1.1&services=true" type="text/javascript" type="text/javascript"></script>
+
+<body>
+    <div id="main">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="box">
+                        <div class="box-title">
+                            <div class="span10">
+                                <h3><i class="icon-edit"></i>编辑酒店信息</h3>
+                            </div>
+                            <div class="span2"><a class="btn" href="Javascript:window.history.go(-1)">返回</a></div>
+                        </div>
+                        <div class="box-content">
+                            <form action="/Wehotel/EditHotel" method="post" class='form-horizontal form-validate'>
+								<input type="hidden" name="aid" id="aid" value="64835"/>
+								<input type="hidden" name="hid" id="hid" value=""/>
+                                <div class="control-group">
+                                    <label for="keyword" class="control-label">触发关键词：</label>
+                                    <div class="controls">
+                                        <input type="text" name="keyword" id="keyword" class="input-xlarge" data-rule-required="true"  value=""/><span class="maroon">*</span><span class="help-inline">如有多个关键字请用空格隔开</span>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label for="title" class="control-label">酒店名称：</label>
+                                    <div class="controls">
+                                        <input type="text" name="title" id="title" class="input-xlarge" value="" data-rule-required="true" /><span class="maroon">*</span>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label for="picurl" class="control-label">图文封面：</label>
+                                    <div class="controls">
+										<img class="thumb_img" src="images/hotel_head.jpg" style="max-height: 100px;">
+                                        <input id="picurl" type="hidden" name="picurl" class="input-xlarge"  readonly=""  value="images/hotel_head.jpg" /> 
+                                        <span class="help-inline">   <button class="btn select_img" type="button">选择封面</button>  </span><span class="help-inline">填写图片外链地址，推荐大小为720x400</span>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label for="address" class="control-label">酒店地址：</label>
+                                    <div class="controls">
+                                        <input type="text" name="address" id="address" class="input-xlarge" value="" data-rule-required="true" /><span class="maroon">*</span>如上海市杨浦区五角场万达广场
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label for="tel" class="control-label">酒店电话：</label>
+                                    <div class="controls">
+                                        <input type="text" name="tel" id="tel" class="input-xlarge" value="" data-rule-required="true" /><span class="maroon">*</span>如021-61234567
+                                    </div>
+                                </div>
+                           
+                                <div class="control-group">
+                                    <label for="headpic" class="control-label">订单页头部图片：</label>
+                                    <div class="controls">
+										<img class="thumb_img" src="images/hotel_order_head.jpg" style="max-height: 100px;">
+                                        <input id="headpic" type="hidden" name="headpic" class="input-xlarge" readonly=""  value="images/hotel_order_head.jpg" /> 
+                                        <span class="help-inline">
+                                            <button class="btn select_img" type="button">选择图片</button>
+                                        </span><span class="help-inline">填写图片外链地址，推荐大小为720x400</span>
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="">地图标识</label>
+                                    <div class="controls">
+                                        <div class="input-append">
+                                            <input type="text" id="suggestId" class="input-xlarge" name="place"  value=""/>
+                                            <button class="btn" type="button" id="positioning">搜索</button>
+                                        </div>
+
+                                        <span class="maroon">注意：这个只是模糊定位，准确位置请地图上标注!</span>
+                                        <div id="l-map">
+                                            <i class="icon-spinner icon-spin icon-large"></i>地图加载中...
+                                        </div>
+                                        <div id="r-result">
+                                            <input type="hidden" id="lng" name="lng" value=""/><input type="hidden" id="lat" name="lat" value=""/>
+                                        </div>
+
+                                    </div>
+
+                                <div class="control-group">
+                                    <label for="typename" class="control-label">列表模式：</label>
+                                    <div class="controls">
+                                        <label class="radio inline">
+                                            <input type="radio" name="picmode" value="1"  />
+                                            无图
+                                        </label>
+                                        <label class="radio inline">
+                                            <input type="radio" name="picmode" value="2"  checked="checked"  />
+                                            有图
+                                        </label>
+                                    </div>
+                                </div>
+
+
+                                <div class="control-group">
+                                    <label for="endinfo" class="control-label">商家图片：</label>
+									<input type="hidden" value="images/hotel_business_head.jpg" id="hide_img"/>
+                                    <div class="controls">
+                                        <div class="span12"><a href="javascript:void(0)" class="btn" id="add_menu"><i class="icon-plus"></i>添加图片</a></div>
+                                        <table id="listTable" class="table table-bordered table-hover dataTable">
+
+                                            <thead>
+                                                <tr>
+                                                    <th>文字描述</th>
+                                                    <th>排序</th>
+                                                    <th>图片地址</th>
+                                                    <th>图片跳转地址以http://开头</th>
+                                                    <th>操作</th>
+                                                </tr>
+                                            </thead>
+											                                        </table>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label for="endinfo" class="control-label">商家介绍：</label>
+                                    <div class="controls">
+                                        <textarea id="info1" name="info1" value="" data-rule-required="true" data-rule-msg="商家介绍不能为空"></textarea>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label for="endinfo" class="control-label">订房说明：</label>
+                                    <div class="controls">
+                                        <textarea id="info2" name="info2" value="" data-rule-required="true" data-rule-msg="订房说明不能为空"></textarea>
+                                    </div>
+                                </div>
+                                <link href="css/default.css" rel="stylesheet" />
+                                <script src="js/kindeditor-min.js"></script>
+                                <script src="js/zh_CN.js"></script>
+                                <script type="text/javascript">
+                                    $().ready(function () {
+                                        var $add_menu = $("#add_menu");
+                                        var $add_zmenu = $("i.add");
+										var hide_img = $("#hide_img").val();
+                                        $add_menu.click(function (e) {
+                                            e.preventDefault();
+                                            var _menuPtrtmp = '<tr>'
+                                            + '<td>'
+                                            + ' <input type="text" name="businessInfo[name][]" class="input-small" '
+                                           + '  data-rule-required="true"/><span class="maroon">*</span></td><td>'
+                                           + ' <input type="text" name="businessInfo[order][]" class="input-mini"  value="1" /></td>'
+                                           + '     <td>'
+										   + '<img class="thumb_img" src="'+hide_img+'" style="max-height: 100px;">'
+                                           + '  <input type="hidden" name="businessInfo[picurl][]" class="input-medium" value="'+hide_img+'" readonly/>  <span> <button class="btn select_img" type="button">选择图片</button></span></td>'
+                                          + '   <td>'
+                                          + ' <input type="text" name="businessInfo[url][]" class="input-medium"  /></td>'
+                                          + ' <td><a href="javascript:void(0);" class="del">删除</a></td>'
+                                         + '</tr>'
+                                            $("#listTable").append(_menuPtrtmp);
+
+                                        })
+
+                                        $("#listTable .del").live("click", (function () {
+                                            $(this).parents("tr").remove();
+                                        }))
+
+
+                                    });
+                                    var seting = {
+                                        themeType: "simple",
+                                        resizeType: 1,
+                                        syncType: "",
+                                        allowPreviewEmoticons: false,
+                                        items: [
+                'source', 'undo', 'redo', 'plainpaste', 'plainpaste', 'wordpaste', 'clearhtml', 'quickformat', 'selectall', 'fullscreen', 'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline', 'hr',
+                'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+                'insertunorderedlist', '|', 'emoticons', 'image', 'link', 'unlink', 'baidumap'],
+                                        allowFileManager: true,
+
+                                        width: "81%",
+                                        afterCreate: function () {
+                                            this.sync();
+                                        },
+                                        afterBlur: function () {
+                                            this.sync();
+                                        }
+                                    }
+                                    KindEditor.ready(function (K) {
+                                        var editor1 = K.create("#info1", seting);
+                                        var editor2 = K.create("#info2", seting);
+                                        $('button.select_img').live("click", function (e) {
+                                            editor1.loadPlugin('smimage', function () {
+                                                editor1.plugin.imageDialog({
+                                                    imageUrl: $(e.target).parent().prevAll("input[type=hidden]").val(),
+                                                    clickFn: function (url, title, width, height, border, align) {
+                                                        var $input = $(e.target).parent().prevAll("input[type=hidden]")
+                                                        $input.val(url)
+                                                        $input.hide();
+                                                        var t_img = $(e.target).parent().prevAll(".thumb_img:first");
+                                                        if (t_img.length == 0) {
+                                                            var tmp = '<img class="thumb_img" src="{0}" style="max-height: 100px;">';
+                                                            $input.before(tmp.format(url))
+                                                        } else {
+                                                            t_img.attr("src", url);
+                                                        }
+                                                        $(e.target).text("重新选择")
+                                                        editor1.hideDialog();
+                                                    }
+                                                });
+                                            });
+                                        });
+
+                                    });
+
+                                </script>
+                                <script>
+                                    function dodelit(i) {
+                                        document.getElementById("txt" + i).value = "";
+                                        document.getElementById("value" + i).value = "";
+                                        if (i != 1) {
+                                            document.getElementById("trtxt" + i).style.display = "none";
+                                            document.getElementById("add" + i).style.display = "";
+                                        }
+                                    }
+                                    function doaddit(i) {
+                                        document.getElementById('trtxt' + i).style.display = "";
+                                        document.getElementById('add' + i).style.display = "none";
+                                    }
+                                    function sdodelit(i) {
+                                        document.getElementById("select" + i).value = "";
+                                        document.getElementById("svalue" + i).value = "";
+                                        if (i != 1) {
+                                            document.getElementById("strtxt" + i).style.display = "none";
+                                            document.getElementById("sadd" + i).style.display = "";
+                                        }
+                                    }
+                                    function sdoaddit(i) {
+                                        document.getElementById('strtxt' + i).style.display = "";
+                                        document.getElementById('sadd' + i).style.display = "none";
+                                    }
+                                </script>
+                                <div class="control-group">
+                                    <label for="endinfo" class="control-label">订单内容设置：</label>
+                                    <div class="controls">
+                                       <span class="help-inline">填写你要收集的内容！订单默认选项不可以修改删除！</span>
+                                        <table class="table table-bordered table-hover dataTable">
+                                            <thead>
+                                                <tr>
+                                                    <th>字段类型</th>
+                                                    <th>字段名称</th>
+                                                    <th>初始内容</th>
+
+                                                    <th>操作</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>单行文字：</td>
+                                                    <td>
+                                                        <input name="" type="text" disabled="disabled" class="wizard-ignore" value="联系人" readonly="readonly"></td>
+                                                    <td>
+                                                        <input name="" type="text" disabled="disabled" class="wizard-ignore" value="请输入您的名字" readonly="readonly"></td>
+
+                                                    <td>订单默认项</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>单行文字：</td>
+                                                    <td>
+                                                        <input name="" type="text" disabled="disabled" class="wizard-ignore" value="联系电话" readonly="readonly"></td>
+                                                    <td>
+                                                        <input name="" type="text" disabled="disabled" class="wizard-ignore" value="请输入您的电话" readonly="readonly"></td>
+
+                                                    <td>订单默认项</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>时间选择：</td>
+                                                    <td>
+                                                        <input name="" type="text" disabled="disabled" class="wizard-ignore" value="预约日期" onchange="$('odid').value='请输入'+this.value;"></td>
+                                                    <td>
+                                                        <input name="" type="text" disabled="disabled" id="odid" class="wizard-ignore" value="请输入预约日期"></td>
+
+                                                    <td>订单默认项</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>预定数量：</td>
+                                                    <td>
+                                                        <input name="" type="text" disabled="disabled" class="wizard-ignore" value="选择数量" readonly="readonly"></td>
+                                                    <td>
+                                                        <input name="" type="text" disabled="disabled" class="wizard-ignore" value="选择数量" readonly="readonly"></td>
+
+                                                    <td>订单默认项</td>
+                                                </tr>
+												                                                <tr id="trtxt1">
+                                                    <td>输入需要增加的内容：</td>
+                                                    <td>
+                                                        <input type="text" name="txt1" id="txt1" value=""></td>
+                                                    <td>
+                                                        <input name="value1" id="value1" type="text" value=""></td>
+
+                                                    <td>
+                                                        <p><a class="btnGrayS vm" id="add2" href="javascript:doaddit(2)">添加</a>　<a href="javascript:dodelit(1)">删除</a></p>
+                                                    </td>
+                                                </tr>
+                                                <tr id="trtxt2"  style="display: none" >
+                                                    <td>输入需要增加的内容：</td>
+                                                    <td>
+                                                        <input type="text" name="txt2" id="txt2" value=""></td>
+                                                    <td>
+                                                        <input name="value2" id="value2" type="text" value=""></td>
+
+                                                    <td>
+                                                        <p><a class="btnGrayS vm" id="add3" href="javascript:doaddit(3)">添加</a>　<a href="javascript:dodelit(2)">删除</a></p>
+                                                    </td>
+                                                </tr>
+
+                                                <tr id="trtxt3"  style="display: none" >
+                                                    <td>输入需要增加的内容：</td>
+                                                    <td>
+                                                        <input type="text" name="txt3" id="txt3" value=""></td>
+                                                    <td>
+                                                        <input name="value3" id="value3" type="text" value=""></td>
+
+                                                    <td>
+                                                        <p><a class="btnGrayS vm" id="add4" href="javascript:doaddit(4)">添加</a>　<a href="javascript:dodelit(3)">删除</a></p>
+                                                    </td>
+                                                </tr>
+                                                <tr id="trtxt4"  style="display: none" >
+                                                    <td>输入需要增加的内容：</td>
+                                                    <td>
+                                                        <input type="text" name="txt4" id="txt4" value=""></td>
+                                                    <td>
+                                                        <input name="value4" id="value4" type="text" value=""></td>
+
+                                                    <td>
+                                                        <p><a class="btnGrayS vm" id="add5" href="javascript:doaddit(5)">添加</a>　<a href="javascript:dodelit(4)">删除</a></p>
+                                                    </td>
+                                                </tr>
+                                                <tr id="trtxt5"  style="display: none" >
+                                                    <td>输入需要增加的内容：</td>
+                                                    <td>
+                                                        <input type="text" name="txt5" id="txt5" value=""></td>
+                                                    <td>
+                                                        <input name="value5" id="value5" type="text" value=""></td>
+
+                                                    <td>
+                                                        <p><a href="javascript:dodelit(5)">删除</a></p>
+                                                    </td>
+                                                </tr>
+												                                                <tr id="strtxt1">
+                                                    <td width="120">下拉框1：</td>
+                                                    <td>
+                                                        <input type="text" name="select1" value="" id="select1"></td>
+                                                    <td>
+                                                        <input name="svalue1" id="svalue1" type="text" value="" placeholder="选择1|选择2|选择3"></td>
+
+                                                    <td>
+                                                        <p><a class="btnGrayS vm" id="sadd2" href="javascript:sdoaddit(2)" style="">添加</a>　<a href="javascript:sdodelit(1)">删除</a></p>
+                                                    </td>
+                                                </tr>
+                                                <tr id="strtxt2"  style="display: none" >
+                                                    <td>下拉框2：</td>
+                                                    <td>
+                                                        <input type="text" name="select2" id="select2" value=""></td>
+                                                    <td>
+                                                        <input name="svalue2" id="svalue2" type="text" value="" placeholder="选择1|选择2|选择3"></td>
+
+                                                    <td>
+                                                        <p><a class="btnGrayS vm" id="sadd3" href="javascript:sdoaddit(3)" style="">添加</a>　<a href="javascript:sdodelit(2)">删除</a></p>
+                                                    </td>
+                                                </tr>
+
+                                                <tr id="strtxt3"  style="display: none" >
+                                                    <td>下拉框3：</td>
+                                                    <td>
+                                                        <input type="text" name="select3" id="select3" value=""></td>
+                                                    <td>
+                                                        <input name="svalue3" id="svalue3" type="text" value="" placeholder="选择1|选择2|选择3"></td>
+
+                                                    <td>
+                                                        <p><a class="btnGrayS vm" id="sadd4" href="javascript:sdoaddit(4)">添加</a>　<a href="javascript:sdodelit(3)">删除</a></p>
+                                                    </td>
+                                                </tr>
+                                                <tr id="strtxt4"  style="display: none" >
+                                                    <td>下拉框4：</td>
+                                                    <td>
+                                                        <input type="text" name="select4" id="select4" value=""></td>
+                                                    <td>
+                                                        <input name="svalue4" id="svalue4" type="text" value="" placeholder="选择1|选择2|选择3"></td>
+
+                                                    <td>
+                                                        <p><a class="btnGrayS vm" id="sadd5" href="javascript:sdoaddit(5)">添加</a>　<a href="javascript:sdodelit(4)">删除</a></p>
+                                                    </td>
+                                                </tr>
+                                                <tr id="strtxt5"  style="display: none" >
+                                                    <td>下拉框5：</td>
+                                                    <td>
+                                                        <input type="text" name="select5" id="select5" value=""></td>
+                                                    <td>
+                                                        <input name="svalue5" id="svalue5" type="text" value=""></td>
+
+                                                    <td>
+                                                        <p><a href="javascript:sdodelit(5)">删除</a></p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>多行文字：</td>
+                                                    <td>
+                                                        <input name="remak" type="text" value="备注" class="wizard-ignore"></td>
+                                                    <td>
+                                                        <input name="" type="text" class="wizard-ignore" disabled="disabled" value="请留言" readonly="readonly"></td>
+
+                                                    <td>订单默认项</td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+								<div class="control-group">
+                                    <label for="" class="control-label">商家通知设置：</label>
+									<input type="hidden" name="take" value="1" />
+                                    <div class="controls">
+                                        <div class="row-fluid margin-bm10">
+                                            订单通知邮箱：<input type="text" class="input-large" data-rule-email="true" name="email" value=""><span class="help-inline"><label class="checkbox inline">
+                                                <input type="checkbox" name="open_email" value="1" >
+                                                开启
+                                            </label>
+                                            </span>
+                                        </div><p style="margin-left:83px;">当有新订单时，发送邮件到此邮箱</p>
+                                    </div>
+                                     <div class="controls">
+                                        <div class="row-fluid">
+                                            订单短信通知：<input type="text" class="input-large" data-rule-mobile="true" name="sms" value=""><span class="help-inline" ><label class="checkbox inline">
+                                                <input type="checkbox" name="open_sms" value="1">
+                                                开启
+                                            </label>
+                                            </span>
+                                        </div><p style="margin-left:83px;">当有新订单时，发送短信到此手机</p>
+                                    </div>
+                                </div>
+
+                                <div class="form-actions">
+                                    <button id="bsubmit" type="submit" data-loading-text="提交中..." class="btn btn-primary">保存</button>
+                                    <button type="button" class="btn" onclick="window.history.go(-1)">取消</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+
+        $(function () {
+			var hid = $("#hid").val();
+			if(hid.length > 0){
+				var op = { 
+					lat: "",
+					lng: "",
+					adr: ""
+				};
+				baidu_map(op);
+			}else{
+				baidu_map();
+			}
+
+            
+
+        });
+    </script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.myhp_pageTitle {height: 30px; width: 920px; line-height: 25px; text-align:center; font-size: 16px; font-weight:bold; color:#3e9069;}
+.ChargeBox {float:left; width: 900px; height:auto; padding: 0px 0px 15px 15px;}
+
+.chargeDetail_box {float:left; background:#FFF; padding: 1px; border: 0; margin: 0px; width: 885px;}
+.chargeDetail_box table {width: 100%; border: solid 1px #c0c0c0; border-collapse: collapse; border-spacing:0px;}
+.chargeDetail_box table tr td {padding: 5px; border-bottom: solid 1px #ccc;border-left: solid 1px #c0c0c0; height: 20px;vertical-align: middle;font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif, "宋体", "微软雅黑"; line-height: 25px;color: #666;}
+.chargeDetail_box table tr th {padding: 5px 5px 5px 5px; text-align: center; background-color:#F0F7FD; border-bottom: #c0c0c0 1px solid; vertical-align: middle; border-spacing:0px; font-weight:bold; line-height: 28px; color: #527ac3; padding-left: 10px; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif, "宋体", "微软雅黑";}
+
+.ChAlCen {text-align: center;}

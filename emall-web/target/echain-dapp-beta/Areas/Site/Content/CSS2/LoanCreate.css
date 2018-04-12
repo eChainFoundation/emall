@@ -1,0 +1,266 @@
+﻿
+.divPopup
+{
+    width: 620px;
+    float: left;
+    border: 1px solid #85B6E2;
+    border-bottom: 0px;
+    background-color: #fff;
+    padding: 0px 0px 10px 0px;
+    background-color: #fff7e4;
+}
+.divPopup li
+{
+    float: left;
+    width: 250px;
+    list-style: none;
+    margin: 5px 0px;
+}
+.divPopup .closeBtn
+{
+    float: right;
+    margin: 5px 10px 0px 0px;
+    margin: -30px 10px 0px 0px;
+    padding: 0px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url(/Areas/Site/Content/Images/btn_close.gif) no-repeat;
+    border: none;
+    color: #333;
+}
+.divTiShi
+{
+    width: 590px;
+    float: left;
+    margin: 0px;
+    font: bold 16px "Microsoft YaHei";
+    line-height: 35px;
+    padding: 5px 0px 10px 30px;
+    color: #4a5daa;
+    background-color:#CC0505;
+    <%--background: url(/Areas/Site/Content/Images/divAttentionBg.gif) repeat-x;--%>
+            
+}
+        
+.divPopup2
+{
+    width: 620px;
+    float: left;
+    border: 1px solid #85B6E2;
+    border-top: 0px;
+    background-color: #fff;
+    padding: 0px 0px 10px 0px;
+    background-color: #fff7e4;
+}
+.divPopup2 ul
+{
+    border-left: 1px solid #cbcbcb;
+    border-top: 1px solid #cbcbcb;
+}
+.divPopup2 ul li
+{
+    float: left;
+    width: 250px;
+    padding: 0px 0px 0px 5px;
+    margin: 0px;
+    list-style: none;
+    border-right: 1px solid #cbcbcb;
+    display: block;
+    line-height: 25px;
+    text-align: left;
+}
+        
+#divPopupHuji
+{
+    width: 280px;
+    float: left;
+    border: 1px solid #85B6E2;
+    background-color: #fff;
+    padding: 0px 0px 10px 0px;
+}
+#divPopupHuji ul
+{
+    float: left;
+    padding-left: 25px;
+    margin: 0px;
+    list-style: none;
+    height: 45px;
+}
+#divPopupHuji li
+{
+    float: left;
+    width: 250px;
+    list-style: none;
+    margin: 5px 0px;
+}
+#divPopupHuji div
+{
+    width: 250px;
+    float: left;
+    margin: 0px;
+    font: bold 16px "Microsoft YaHei";
+    line-height: 35px;
+    padding: 5px 0px 10px 30px;
+    color: #4a5daa;
+    <%-- background: url(/Areas/Site/Content/Images/divAttentionBg.gif) repeat-x;--%>
+}
+#divPopupHuji .closeBtn
+{
+    float: right;
+    margin: 5px 10px 0px 0px;
+    margin: -30px 10px 0px 0px;
+    padding: 0px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url(/Areas/Site/Content/Images/btn_close.gif) no-repeat;
+    border: none;
+    color: #333;
+}
+        
+#jieKuanBaoZhengJin
+{
+    width: 480px;
+    float: left;
+    border: 1px solid #85B6E2;
+    background-color: #fff7e4;
+    padding: 0px 0px 10px 0px;
+}
+#jieKuanBaoZhengJin ul
+{
+    float: left;
+    padding-left: 25px;
+    margin: 0px;
+    list-style: none;
+    height: 380px;
+}
+#jieKuanBaoZhengJin li
+{
+    float: left;
+    width: 450px;
+    list-style: none;
+    margin: 5px 0px;
+}
+#jieKuanBaoZhengJin div
+{
+    width: 450px;
+    float: left;
+    margin: 0px;
+    font: bold 16px "Microsoft YaHei";
+    line-height: 35px;
+    padding: 5px 0px 10px 30px;
+    color: #4a5daa;
+    <%-- background: url(/Areas/Site/Content/Images/divAttentionBg.gif) repeat-x;--%>
+}
+#jieKuanBaoZhengJin .closeBtn
+{
+    float: right;
+    margin: 5px 10px 0px 0px;
+    margin: -30px 10px 0px 0px;
+    padding: 0px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url(/Areas/Site/Content/Images/btn_close.gif) no-repeat;
+    border: none;
+    color: #333;
+}
+        
+#BaoCunTishi
+{
+    width: 480px;
+    float: left;
+    border: 1px solid #85B6E2;
+    background-color: #fff7e4;
+    padding: 0px 0px 10px 0px;
+}
+#BaoCunTishi ul
+{
+    float: left;
+    padding-left: 25px;
+    margin: 0px;
+    list-style: none;
+}
+#BaoCunTishi li
+{
+    float: left;
+    width: 450px;
+    list-style: none;
+    margin: 5px 0px;
+}
+#BaoCunTishi div
+{
+    width: 450px;
+    float: left;
+    margin: 0px;
+    font: bold 16px "Microsoft YaHei";
+    line-height: 35px;
+    padding: 5px 0px 10px 30px;
+    color: #4a5daa;
+    <%--  background: url(/Areas/Site/Content/Images/divAttentionBg.gif) repeat-x;--%>
+}
+#BaoCunTishi .closeBtn
+{
+    float: right;
+    margin: 5px 10px 0px 0px;
+    margin: -30px 10px 0px 0px;
+    padding: 0px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url(/Areas/Site/Content/Images/btn_close.gif) no-repeat;
+    border: none;
+    color: #333;
+}
+        
+#divYuEBuZhu
+{
+    width: 280px;
+    float: left;
+    border: 1px solid #85B6E2;
+    background-color: #fff;
+    padding: 0px 0px 10px 0px;
+}
+#divYuEBuZhu ul
+{
+    float: left;
+    padding-left: 25px;
+    margin: 0px;
+    list-style: none;
+    height: 45px;
+}
+#divYuEBuZhu li
+{
+    float: left;
+    width: 250px;
+    list-style: none;
+    margin: 5px 0px;
+}
+#divYuEBuZhu div
+{
+    width: 250px;
+    float: left;
+    margin: 0px;
+    font: bold 16px "Microsoft YaHei";
+    line-height: 35px;
+    padding: 5px 0px 10px 30px;
+    color: #4a5daa;
+    <%-- background: url(/Areas/Site/Content/Images/divAttentionBg.gif) repeat-x;--%>
+}
+#divYuEBuZhu .closeBtn
+{
+    float: right;
+    margin: 5px 10px 0px 0px;
+    margin: -30px 10px 0px 0px;
+    padding: 0px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url(/Areas/Site/Content/Images/btn_close.gif) no-repeat;
+    border: none;
+    color: #333;
+}     
+.smrzcont{ width: 700px; margin-top: 0px;padding:10px} 
+.smrzcont ul{width:700px;float:left;padding-top:10px;}
+.smrzcont ul li{width: 105px; padding-right: 5px;}

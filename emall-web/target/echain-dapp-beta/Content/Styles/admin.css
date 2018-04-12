@@ -1,0 +1,179 @@
+BODY {MARGIN: 0px}
+P {
+	MARGIN: 0px
+}
+BODY {
+	COLOR: #000; BACKGROUND-COLOR: #fff
+}
+BODY {
+	FONT-SIZE: 12px; LINE-HEIGHT: 150%; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+TABLE {
+	FONT-SIZE: 12px; LINE-HEIGHT: 150%; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+INPUT {
+	FONT-SIZE: 12px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+SELECT {
+	FONT-SIZE: 12px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+TEXTAREA {
+	FONT-SIZE: 12px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+A:link {
+	COLOR: #036; /*TEXT-DECORATION: none*/
+}
+A:visited {
+	COLOR: #036; /*TEXT-DECORATION: none*/
+}
+A:hover {
+	COLOR: #f60; TEXT-DECORATION: underline
+}
+A.menuChild:link {
+	COLOR: #036; TEXT-DECORATION: none
+}
+A.menuChild:visited {
+	COLOR: #036; TEXT-DECORATION: none
+}
+A.menuChild:hover {
+	COLOR: #f60; TEXT-DECORATION: underline
+}
+A.menuParent:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+A.menuParent:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+A.menuParent:hover {
+	COLOR: #f60; TEXT-DECORATION: none
+}
+TABLE.position {
+	WIDTH: 100%
+}
+TR.position {
+	HEIGHT: 25px; BACKGROUND-COLOR: #f4f7fc
+}
+TD.position {
+	BORDER-RIGHT: #adceff 1px solid; PADDING-LEFT: 20px; BORDER-BOTTOM: #adceff 1px solid
+}
+TABLE.listTable {
+	WIDTH: 98%; BACKGROUND-COLOR: #b1ceee
+}
+TR.listHeaderTr {
+	FONT-WEIGHT: bold; HEIGHT: 25px; BACKGROUND-COLOR: #ebf4fd; TEXT-ALIGN: center
+}
+TR.listTr {
+	HEIGHT: 25px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center
+}
+TR.listAlternatingTr {
+	HEIGHT: 25px; BACKGROUND-COLOR: #fffdf0; TEXT-ALIGN: center
+}
+TR.listFooterTr {
+	HEIGHT: 30px; BACKGROUND-COLOR: #ebf4fd; TEXT-ALIGN: center
+}
+TABLE.editTable {
+	WIDTH: 98%; BACKGROUND-COLOR: #b1ceee
+}
+TR.editHeaderTr {
+	HEIGHT: 25px; BACKGROUND-COLOR: #ebf4fd
+}
+TD.editHeaderTd {
+	PADDING-LEFT: 50px; FONT-WEIGHT: bold
+}
+TR.editTr {
+	HEIGHT: 30px
+}
+TD.editLeftTd {
+	WIDTH: 150px; BACKGROUND-COLOR: #fffdf0; TEXT-ALIGN: center
+}
+TD.editRightTd {
+	PADDING-LEFT: 10px; BACKGROUND-COLOR: #fff
+}
+TR.editFooterTr {
+	HEIGHT: 40px; BACKGROUND-COLOR: #ebf4fd
+}
+TD.editFooterTd {
+	PADDING-LEFT: 150px
+}
+
+/*��ҳ�ؼ���ʽ*/
+.pages { color:red;font-weight:bold; font-size:11px; cursor:pointer;}
+.pages .item{padding: 1px 6px;font-size: 13px;} /*����ҳ������ʽ*/
+.pages .cpb {color:red;padding: 1px 6px;font-size: 13px;} /*��ǰҳ��ʽ*/
+.pages a { text-decoration:none;padding: 0 5px; border: 1px solid #ddd;margin:0 2px; color:#000;font-weight:normal;}
+.pages a:hover { background-color: #E61636; color:#fff;border:1px solid #E61636; text-decoration:none;font-weight:normal;}
+.pages input[type='text']{width:24px;}
+
+
+
+body, div, p, ul, ol, dl, dt, dd, li, form, input, table, img, h1, h2, h3, h4, h5, h6{margin:auto}
+BODY {margin-left:0px;margin-right:0px;  text-align:center;FONT-SIZE: 12px;COLOR: #000;LINE-HEIGHT: 1.5em;FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;background-color:#FFFFFF;}
+li {list-style-type: none;}
+
+h2{float:left;font-size:13px;}        
+        
+    
+#divUserList li{width:178px;}  
+#divAdminList li{width:297px;}
+#divWithdrawList li{width:126px;}
+#divLogonInfoList li{width:222px;}
+#divLoanList li{width:130px;}
+
+#divAssertList0 li{width:222px;}
+#divAssertList1 li{width:222px;}
+#divAssertList2 li{width:222px;}
+#divAssertList3 li{width:222px;}
+
+.divUserDetail{float:left;width:940px; margin-left:20px;}
+.divUserDetail ul{border-top:1px solid #cbcbcb;}
+.divUserDetail li{float:left;width:300px; text-align:left; border-bottom:1px dotted #cbcbcb; line-height:25px;}
+
+
+
+.divMenu    {float:left; *float:none; width: 170px; height: auto;  margin: 0px 0px 0px 0px; padding: 2px 0px 0px 0px; background:url(/Content/images/menu_bg.jpg) 0px 0px repeat-y; border-right:1px solid #d1e6f7;}
+        .divMenu h1{margin:0 10px 0 10px;padding-left:20px; line-height:24px; background:url(/Content/images/menu_bt.jpg);FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size:12px; font-weight:normal; text-align:left; border-right:1px solid #d1e6f7; }
+        .divMenu ul{padding:0px; margin-left:10px;list-style: none;display:none;}
+        .divMenu ul li{margin:0 10px 0 5px;float:left;width: 115px;padding-left:30px;line-height:20px; background:url(/Content/images/menu_icon.gif) 5px no-repeat;background-position:center left; font-size:12px; text-align:left; border-bottom:1px dotted #a6b6d3;}
+
+
+.divHeader{height:60px;width:100%;min-width:800px;float:left; background-image:url(/Content/images/top-right.gif);}
+.divHeader ul{padding-left:0;}
+.divHeader li{float:left;}
+   
+.ulContent li{border:1px #ababab solid;border-left:0px;border-top:0px;text-align:left;}
+.divContent{width:900px;float:left;}
+
+.divList{width:900px;float:left; overflow:hidden;}
+.divList ul{width:900px;padding-left:0; border-top:1px #c0c0c0 solid;border-left:1px #c0c0c0 solid;}
+.divList li{float:left; line-height:30px; border:1px #c0c0c0 solid;border-left:0px;border-top:0px; text-align:left;}
+.ulHeader {width:900px;padding-left:0; border-top:1px #c0c0c0 solid;border-left:1px #c0c0c0 solid;background: url(/Content/images/tbCon_thbg.gif) repeat-x;}
+.ulHeader li{font-weight:bold;}
+.divPager{width:880px;margin-left:10px;margin-top:10px;float:left;}
+
+.listTable {float:left; width: 1080px; font-family: Arial, Helvetica, sans-serif, "����"; padding-bottom: 8px;  position:absolute; margin-left:10px;margin-bottom:5px;margin-top:10px}
+.listTable table { margin: 0px; width: 100%; color: #6d6d6d; vertical-align: top; text-align: center; border-top: #c0c0c0 1px solid;border-left: #c0c0c0 1px solid; border-right: #c0c0c0 1px solid;border-bottom: #c0c0c0 1px solid;}
+.listTable tr th {height: 25px; font-size: 12px; padding: 5px; background: url(/Content/images/tbCon_thbg.gif) repeat-x; font-weight: bold; color: #303d86;}
+.listTable table tr td {height: 25px; padding: 5px; line-height: 20px; border-bottom: #c0c0c0 1px solid; text-align:left;}
+.listTable a:link, .listTable a:visited {color: #0063dc; text-decoration: none;}
+.listTable a:hover, .listTable a:active {text-decoration: underline;}        
+
+h1{padding-left:10px; font-size:14px;margin:0px;margin-top:10px;}
+/*�����ʽ*/
+.listTable1{ float:none}
+.listTable1 table { width: 710px; color: #6d6d6d; vertical-align: top; text-align: center; border-top: #c0c0c0 1px solid;border-left: #c0c0c0 1px solid; border-right: #c0c0c0 1px solid;border-bottom: #c0c0c0 1px solid;
+                    border-collapse:collapse; border-spacing:Distance;
+                    }
+  
+.listTable1 td{height: 30px;line-height: 20px; border-left: #c0c0c0 1px solid; border-bottom: #c0c0c0 1px solid;}
+.listTable1 th{ border-left: #c0c0c0 1px solid; border-bottom: #c0c0c0 1px solid; color:#303d86}
+    
+.loan_Stb {float:left; margin-left:10px; width: 1200px; font-family: Arial, Helvetica, sans-serif, "����"; padding-bottom: 8px;  position:absolute; }
+.loan_Stb table { margin: 0px; width: 100%; color: #6d6d6d; vertical-align: top; text-align: center; border: #c0c0c0 1px solid;border-left: #c0c0c0 1px solid; border-right: #c0c0c0 1px solid;}
+.loan_Stb table tr th {height: 25px; font-size: 12px; padding: 5px; background: url(/Content/images/tbCon_thbg.gif) repeat-x; font-weight: normal; color: #303d86;text-align:center; border:0px; border-bottom: #c0c0c0 1px solid;}
+.loan_Stb table tr td {height: 25px; padding: 5px; line-height: 20px;border:0px; border-bottom: #c0c0c0 1px solid;}
+
+.loan_Stb a:link, .loan_Stb a:visited {color: #0063dc; text-decoration: none;}
+.loan_Stb a:hover, .loan_Stb a:active {text-decoration: underline;}
+.divMenu{ cursor:pointer}
+ input[type=submit]{ width:60px;height:24px;padding:0px;}
+   

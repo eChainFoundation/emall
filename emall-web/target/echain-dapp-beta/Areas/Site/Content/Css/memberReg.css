@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.reg_pagetitle {float:left; width: 870px; height: 52px; background: url(/Areas/Site/Content/images/regtitle.gif) no-repeat; display: block; margin-left: 10px;}
+.reg {border: #b0e699 5px solid; margin: 5px 0px 10px 0px; padding: 20px 10px 20px 20px; background:url(/Areas/Site/Content/images/regboxbg.gif) right bottom no-repeat;}
+.confirm {text-align: center; width: 900px; padding: 10px 0px; height:auto;}
+.confirm input {margin: 0px 10px; width:95px; height:36px; border:0px; cursor: pointer; background:url(/Areas/Site/Content/images/btnCon02.gif) 0px 0px no-repeat;}
+
+.reg {margin:10px 20px 20px 20px; padding:0px;line-height:20px; }
+.reg h1{background: url(/Areas/Site/Content/images/reg_title.gif) no-repeat; height:33px; padding-left:50px; margin-bottom: 20px; font-size:14px; line-height:26px; color:#377cb1; font-weight: bold;}
+.reg h3{font-weight:normal;line-height:20px;font-size:14px;padding-left:80px;height:20px; color:#666; margin: 10px 0px;}
+.reg h3 input {border:1px solid #ccc; height:20px; vertical-align:middle}
+.reg h3 img {vertical-align:middle;}
+.reg h3 select {border:1px solid #ccc;font-size:14px; vertical-align:middle;}
+.reg h3 input[type="radio"]{border:0;font-size:14px}
+.reg h3 .input_r{border:0;font-size:14px;margin:5px 0px 5px 0px;}
+.reg h3 .input_c{border:0;font-size:14px}
+.reg .tips { font:12px "宋体";color:#77ABD2;}

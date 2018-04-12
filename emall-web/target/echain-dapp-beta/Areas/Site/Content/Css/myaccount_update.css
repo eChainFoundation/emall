@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mainBox {float:left; width: 921px; padding-top: 10px; margin: 0px; text-align: left;}
+.main_content {float:left; width:auto; height:auto;}
+.page_apartline {background: url(/Areas/Site/Content/images/ld_pageTitbg.jpg) repeat-x; display:block; width: 900px; height: 10px; margin-bottom: 0px; margin-left: 5px;}
+.mainLeft {float:left; width:200px; padding: 10px 5px 5px 5px;}
+.left_navDiv {float:left; width: 186px; height: auto; min-height: 270px; margin: 0px 0px 10px 0px; padding: 70px 0px 0px 0px; background:url(/Areas/Site/Content/images/my_lmTitle.gif) 0px 0px no-repeat; /*background:url(/Areas/Site/Content/images/my_leftmenubg.gif) 0px 0px no-repeat;*/}
+
+.lm_navbg {background:url(/Areas/Site/Content/images/my_leftnavBg.gif) 0px 0px repeat-y; width: 168px; height: auto; padding: 20px 0px 20px 18px;}
+.lm_footer {margin:0px; padding:0px; width: 186px; height: 30px;}
+
+.lm_navbg a:link, .loanpageTb a:visited {color: #0063dc; text-decoration: none;}
+.lm_navbg a:hover, .loanpageTb a:active {text-decoration: underline;}
+
+#divAccountLeft ul{ padding:0px; list-style: none; margin: 5px 0px 5px 10px;}
+#divAccountLeft li{font-family: "宋体"; font-size:12px; line-height:20px; width:115px; height:20px; padding-left:15px; border: #a6b6d3 1px solid; margin: 2px 0px; background-color: #f6fcfe;}
+
+.mainRight {float:left; width: 690px; height:auto; padding: 10px 0px 20px 10px; margin: 0px;}
+.my_leftAdimg {float:left; width:185px; height: 112px; margin:0px; padding: 0px;}
+.wel_info {float:left; width: 685px; height: 40px; background: url(/Areas/Site/Content/images/wel_infobg.gif) 0px 0px no-repeat; display: block;}
+.wel_infoTxt {margin: 0px; padding: 0px 0px 0px 20px; font-size: 12px; line-height: 35px; color: #2b58a0; letter-spacing: 1px;}
+.wel_infoTxt span a {font-size: 14px; font-weight: bold; color: #ff9c00; padding: 0px 5px;}
+
+.memberInfo {float:left; margin: 10px 0px 0px 0px; padding: 15px 0px 0px 0px; width:685px; height:167px; background: url(/Areas/Site/Content/images/member_infobg685.gif) 0px 0px no-repeat;}
+.m_rehead_box {float:left; padding: 10px 25px 10px 30px; width: 125px;}
+.m_rehead_pic {float:left; padding: 5px; border: #c3c3c9 1px solid;}
+.m_rehead_box a {float:left; width: 95px; height: 15px; text-align: center; color: #c0c0c0; padding: 10px 0px 0px 4px; background: url(/Areas/Site/Content/images/m_rehead_ico1.gif) 8px 10px no-repeat; line-height: 15px;}
+.m_rehead_box a:hover {background: url(/Areas/Site/Content/images/m_rehead_ico2.gif) 8px 10px no-repeat; color: #527ac3;}
+
+.memberInfo table { float:left; width: 480px;}
+.memberInfo table tr th {border:none; height: 25px; white-space: nowrap; line-height: 27px; width: 80px; color: #2a5ca8; text-align: right;}
+.memberInfo table tr td {border:none; height: 25px; white-space: nowrap; line-height: 27px; padding-left: 10px; color: #2a5ca8;}
+.memberInfo table tr td a {padding-right: 5px; cursor: pointer;}
+.memberInfo .td_w110 {width:120px;}
+.memberInfo .td_w60 {width: 70px;}
+.fundingBar {float:left; padding: 0px; border-top: #bdbdbd 1px solid; background-color: #e3e3e3; width: 100px; height: 8px;}
+
+.mTb_content {float: left; width: 690px; height: auto; margin: 0px; padding: 0px 0px 10px 0px;}
+.mTb_head {float:left; width: 685px; height: 44px; display: block; background: url(/Areas/Site/Content/images/mtb_head.jpg) no-repeat;}
+
+.mTb_list {float:left; width: 680px; height: auto; margin: 0px; padding: 0px 2px; border: none;}
+.mTb_list table {width:100%;}
+.mTb_list table tr td {border-top: #fff 1px solid; border-bottom: #dddddd 1px solid; height: 25px; white-space: nowrap; line-height: 25px; padding-left: 10px;}
+.mtb_ico {background: url(/Areas/Site/Content/images/mtb_ico.gif) 10px 10px no-repeat;}
+.pr_10 {padding-right: 10px;}
+.mTb_list table tr td span {/*color:#0f78dd;*/ color: #f66300; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif; padding-left: 10px;}
+
+#myAccountDetailTb tr {
+    background-color: expression(
+        this.sectionRowIndex == 0 ? "#ffffff" : 
+        (
+            (this.sectionRowIndex % 2 == 0) ? "#ffffff" : "#effafe"
+        )
+    );
+}
+
+.mTb_footline {float: left; width: 685px; height: 10px; background:url(/Areas/Site/Content/images/loanTb_footline.gif) no-repeat; display: block;}
+.collectTb {float:left; width: 320px; height: 60px; margin: 20px 0px 0px 5px; padding: 1px;padding-bottom:2px; border: #d0d0d0 1px solid;}
+.collectTb tr th {border:none; background-color: #f0f0f0; height: 30px; line-height: 30px;white-space: nowrap; text-align: center;}
+.collectTb tr td {border:none; height: 30px; line-height: 30px;white-space: nowrap; text-align: center;}
+.collectTb span {font-size: 12px; font-weight: normal; color: #ff9900; padding: 0px 5px; font-family: Verdana, Arial, Helvetica, sans-serif;}
+.collectTb span a {color: #ff6600; text-decoration: none;}
+.collectTb span a:hover {color: #ff6600; text-decoration: under;}
+
+.myAccount_clear{clear:both; width: 900px; background-color:#fff;}
+
+/* new added css*/
+
+.mypage_title {float:left; width: 685px; height: 45px; background: url(/Areas/Site/Content/images/my_pagetitlebg.gif) 0px 0px no-repeat; display: block;}
+.mypage_title img {float:left; margin-left: 55px !important; *margin-left: 55px;}
+.my_Bookmark {background: url(/Areas/Site/Content/images/listDetail_ban.gif) 0px -35px repeat-x; HEIGHT: 32px; CLEAR: both;}
+.my_blockTitle {font:"宋体", "微软雅黑", "黑体";font-size:14px; color:#3e9069; font-weight: bold; line-height: 35px; padding-left: 20px;}
+
+.my_cpbox {float: left; width: 688px; height: auto; margin: 0px; border: 1px #ccc solid; padding:0px 0px 15px 0px;}
+.my_boxM {float: left; width: 688px; height: auto; margin: 0px; border: 1px #ccc solid; padding:0px;}
+
+.left {float: left; width: 300px; padding: 15px 10px 0px 15px;}
+.B {font-weight: normal; color: #0063dc; margin-bottom: 10px;}
+.cpbox {border: #ccc 1px solid; width: 120px; height: auto; padding: 5px;}
+.right { float: left; width: 300px; text-align:left; padding: 15px 0px 0px 0px;}
+
+
+
+.divBasicInfo {float:left; width: 600px; font-family: Arial, Helvetica, sans-serif, "宋体"; padding: 10px;}
+.divBasicInfo  ul{float:left;width: 100%; padding:0px; list-style: none; margin: 5px 0px 5px 10px; border-bottom: #e6e6e6 1px dashed;}
+.divBasicInfo  ul li {float:left; height: 15px; padding: 0px 30px 8px 5px;}
+.divBasicInfo .liLeft{width:100px;}
+.divBasicInfo input{width:80px;}
+
+
+.my_funcBtn {text-align: center; width: 680px; padding: 10px 0px; height:auto; clear:both;}
+.my_funcBtn input {margin: 0px 10px; width:120px; height:35px; background:url(/Areas/Site/Content/images/common_save.gif) no-repeat 0px 0px; border:0px; color:#fff; font-size:14px; font-weight:bold; cursor: pointer; line-height: 35px;}
+
+/* css找此单行模式来写， 其中float和width两个属性写在最前面的位置*/
+        
+.divMain{float: left;width: 100%;background-color: #FFF;}
+        
+h1{font-size:14px;margin-left:20px;}
+        
+.divInfoList{float: left; width: 80%; }
+.divInfoList ul{float:left; width:700px;  list-style-type: none;}
+.divInfoList ul li{ float:left; }
+.liLeft{width:120px;}
+        
+.divInfoMenu{float: left; width: 150px; height: 25px;}

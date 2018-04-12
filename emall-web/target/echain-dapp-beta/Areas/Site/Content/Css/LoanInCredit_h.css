@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top_idCardInfo {float:left; width:auto; height:auto; margin-bottom: 30px;}
+.myhp_pageTitle {height: 30px; width: 920px; line-height: 25px; text-align:center; font-size: 16px; font-weight:bold; color:#3e9069;}
+.topInfo_detail {float:left; width: 920px; height:auto;}
+.concernTxt a {text-align:center; height: 35px; width:auto; line-height: 35px; font-weight: bold; color: #0063dc;}
+
+.OutCon_fileBox {float:left; width: 320px; height:auto; margin-top:1px; margin-left: 5px;}
+
+.fileBox {float:left; width: 300px; height:auto; text-align:center; border: #c0c0c0 1px solid;}
+.fileBox_content {padding: 10px 5px 5px 5px; width: auto;}
+.fileBox_tit {height: 20px; text-align:left; padding-left: 5px; color: #0063dc; border-bottom: #ccc 1px solid; font-weight: bold;}
+.file_faceimg {margin:5px 0px; float:right; border: #ddd 1px solid; padding: 2px;}
+
+DIV.smallInfo {PADDING-BOTTOM: 3px; MARGIN: auto; PADDING-LEFT: 3px; PADDING-RIGHT: 5px; PADDING-TOP: 5px; text-align: left;}
+DIV.smallInfo UL.user {PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px;}
+DIV.smallInfo UL.user LI {border-bottom: #c0c0c0 1px dashed; LIST-STYLE-TYPE: none; padding: 3px 0px; margin: 0px;}
+DIV.smallInfo UL.user OL {PADDING-BOTTOM: 5px; LIST-STYLE-TYPE: none; MARGIN: 5px 0px 5px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px;}
+DIV.smallInfo UL.user DIV {padding: 3px 0px 3px 0px;}
+.Bookmark {PADDING-LEFT: 10px; BACKGROUND: url(../images/listDetail_ban.gif) 0px -35px repeat-x; HEIGHT: 35px; CLEAR: both;}
+.BookmarkInfo {MARGIN: 10px; WORD-WRAP: break-word; OVERFLOW: hidden;}
+.BookmarkInfo TABLE {width: 100%;}
+.List_BorrowInfo {BORDER-BOTTOM: #ececec 1px solid; BORDER-LEFT: #ececec 1px solid; PADDING-BOTTOM: 10px; LINE-HEIGHT: 200%; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #ececec 1px solid; BORDER-RIGHT: #ececec 1px solid; PADDING-TOP: 10px;}
+.List_BorrowInfo .base_info {padding: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px 0px 10px 70px; WIDTH: 90%;}
+.List_BorrowInfo .base_info li { width: 200px; padding: 0px; LIST-STYLE-TYPE: none; MARGIN: 5px 50px 5px 0px; WHITE-SPACE: nowrap; FLOAT: left;}
+
+.blockTitle {font:"宋体", "微软雅黑", "黑体"; font-size: 14px; color:#3e9069; font-weight: bold; line-height: 40px; padding-left: 20px;}
+
+.mh_HackBox {float:left; background:#FFF; padding: 1px; border: 0; margin: 0px; width: 590px;}
+.mh_HackBox table {border: solid 1px #c0c0c0; border-collapse: collapse;border-spacing:0px;}
+ 
+.mh_HackBox table tr td {padding: 5px; border-bottom: solid 1px #ccc;border-left: solid 1px #c0c0c0; height: 20px;vertical-align: middle;font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif, "宋体", "微软雅黑"; line-height: 25px;color: #666;}
+ 
+.mh_HackBox table tr th {padding: 5px 5px 5px 10px; text-align: left; background-color:#F0F7FD; border-bottom: #c0c0c0 1px solid; vertical-align: middle; border-spacing:0px; font-weight:bold; line-height: 28px; color: #527ac3; padding-left: 10px; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif, "宋体", "微软雅黑";}
+.AlCen {text-align: center;}
+.mh_remind_div{float:left; width: 260px; height: auto; background:url(../images/tishi.gif) #fffce3 no-repeat 10px 8px; font-size:12px; padding-left:40px; padding-top:5px; padding-bottom: 5px; border:1px #F7D9A0 solid; color:#e03f00; line-height: 20px; letter-spacing: 1px; margin-top: 10px;}

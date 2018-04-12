@@ -1,0 +1,73 @@
+<!-- 
+	krpano Virtual Tour Demo - Corfu
+		http://krpano.com/tours/corfu/
+	
+	This tour was build fully automatic with the MAKE VTOUR (Normal) Droplet from the 1.16 krpano tools version.
+	Note - this is an reduced example (smaller images, stronger compression, fewer panos) to keep the download package small!
+-->
+<krpano version="1.16" onstart="wait(0);startup();">
+	
+	
+	<!-- adjust the examples backbutton position (if available), the wait(0) in the onstart action allows executing this event -->
+	<events name="backbutton_adjust" onxmlcomplete="if(layer[backbutton], set(layer[backbutton].y,190));" />
+	
+
+	<include url="../skin/vtourskin.xml" />
+
+	<!-- set skin settings: bingmaps? gyro? -->
+	<skin_settings bingmaps="true"
+	               bingmaps_key="An4-9WoANqtASVorNezSjENest2VC0zoAzvMhEpdTjb3uY-k6u6bMkPxYpDsolsF"
+	               bingmaps_zoombuttons="false"
+	               gyro="true"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop=""
+	               thumbs_opened="false"
+	               thumbs_text="true"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="true"
+	               thumbs_scrollindicator="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               controlbar_offset="20"
+	               />
+
+
+	<action name="startup">
+		if(startscene === null, copy(startscene,scene[0].name));
+		loadscene(get(startscene), null, MERGE);
+	</action>
+
+	
+	<scene name="scene_achilleion-hof-unten" title="上海微莞通网络科技有限公司" onstart="" thumburl="../panos/achilleion-hof-unten.tiles/thumb.jpg" lat="39.563340" lng="19.904324" heading="0.0">
+
+		<view hlookat="-1" vlookat="11" fovtype="MFOV" fov="120" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="../panos/achilleion-hof-unten.tiles/preview.jpg" />
+
+		<image>
+			<cube url="../panos/achilleion-hof-unten.tiles/mobile_%s.jpg" />
+		</image>
+
+	</scene>
+ 
+	<scene name="scene_canaldemure5" title="上海微莞通网络科技有限公司" onstart="" thumburl="../panos/canaldemure5.tiles/thumb.jpg" lat="39.796233694" lng="19.70181763" heading="0.0">
+
+		<view hlookat="-118" vlookat="4" fovtype="MFOV" fov="132" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="../panos/canaldemure5.tiles/preview.jpg" />
+
+		<image>
+			<cube url="../panos/canaldemure5.tiles/mobile_%s.jpg" />
+		</image>
+
+	</scene>
+ 
+ 
+
+ 
+ 
+
+ 
+
+</krpano>
