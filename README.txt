@@ -1,23 +1,7 @@
-Ä¿Â¼½éÉÜ
-	1. doc:
-		´æ·Å¸÷ÀàÎÄµµ
-	2. shenbian-admin
-		web app,¹ÜÀíºóÌ¨
-	3. shenbian-android
-		ÊÖ»ú¶Ë,android
-		ĞèÒªÇëÇóÊÖ»úÒ³ÃæÔòÍ¨¹ıhttpÇëÇóshenbian-web
-		ĞèÒªÖ±½ÓÇëÇóÊı¾İ,ÔòÍ¨¹ıthriftÈ¥µ÷ÓÃshenbian-rpc
-	4. shenbian-ios
-		ÊÖ»ú¶Ë,ios
-		ĞèÒªÇëÇóÊÖ»úÒ³ÃæÔòÍ¨¹ıhttpÇëÇóshenbian-web
-		ĞèÒªÖ±½ÓÇëÇóÊı¾İ,ÔòÍ¨¹ıthriftÈ¥µ÷ÓÃshenbian-rpc
-	5. shenbian-rpc
-		rpc server,ÓÃÓÚÄÚ²¿serviceÔ¶³Ìµ÷ÓÃ
-		¶ÔÍâĞèÒªÔÙ°ü×°Ò»²ã
-	6. shenbian-services
-		jar°ü,´úÂë¸÷ÖÖservices
-	7. shenbian-web
-		web app,Ç°Ì¨ÍøÕ¾
-		ÒÆ¶¯¶ËµÄÍøÕ¾Â·¾¶ÒÔ/m¿ªÍ·,Èç/m/user.PC¶ËÍøÕ¾Â·¾¶ÔòÖ±½Ó/user
-	8.script
-		¸÷ÖÖ½Å±¾,Ò²°üº¬Êı¾İ¿â½Å±¾ÎÄ¼ş
+ç›®å½•ä»‹ç»
+        1.emall-services
+                emallè¿æ¥æ•°æ®åº“å·¥ç¨‹
+        2.emall-web
+                emallé¡µé¢å±•ç¤ºå·¥ç¨‹
+        3.script
+                å„ç§è„šæœ¬,ä¹ŸåŒ…å«æ•°æ®åº“è„šæœ¬æ–‡ä»¶
