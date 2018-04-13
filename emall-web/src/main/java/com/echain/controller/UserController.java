@@ -55,6 +55,8 @@ public class UserController {
 			HttpServletRequest request, HttpServletResponse response,
 			ModelMap modelMap) throws Exception {
          
+		phoneNumber = "+8615026561961";
+		country = "1";
 		if(StringUtil.isBlank(phoneNumber))
 			modelMap.put("errorMessage", "手机号不能为空！");
 		

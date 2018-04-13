@@ -246,7 +246,7 @@ public class SubmailClient {
     private static RequestConfig requestConfig = RequestConfig.custom().setSocketTimeout(30000).setConnectTimeout(30000)
             .setConnectionRequestTimeout(30000).build();
 
-    private static final String appid = "10947";
+    private static final String appid = "21878";
 
     // 模版代码
     private static final String project = "AeKAs3";
@@ -264,10 +264,10 @@ public class SubmailClient {
     //申请驳回
     private static final String project6 = "F8jox2";
     //EChain验证码
-    private static final String project7 = " k6Cqy";
+    private static final String project7 = "k6Cqy";
 
     // 用户密钥
-    private static final String signature = "9d4644811fcf9fa5a0a9f54690baf6e7";
+    private static final String signature = "2f3b38ab436ae0c6e8b543cbd9b50d8e";
 
     private static final String SEND_MESSAGE_URL = "http://api.mysubmail.com/message/xsend.json";
     
