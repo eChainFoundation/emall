@@ -38,7 +38,7 @@ public class SubmailClient {
         params.add(new BasicNameValuePair("vars", URLEncoder.encode(sb.toString(), "UTF-8")));
 
         String send_url = SEND_MESSAGE_URL;
-        if(country.equals("2")) {
+        if(!country.equals("1")) {
         	send_url = SEND_INTERNATIONAL_URL;
         }
         HttpPost httpPost = new HttpPost(send_url);
