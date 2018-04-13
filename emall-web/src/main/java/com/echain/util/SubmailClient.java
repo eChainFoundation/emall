@@ -25,14 +25,15 @@ import com.google.gson.reflect.TypeToken;
 public class SubmailClient {
     private static Logger apiErrLogger = Logger.getLogger("SubmailClient");
 
-    public static void sendRejectApply(String phoneno, String ticketNo, String country) throws IOException{
+    public static void sendRejectApply(String phoneno, String ticketNo, Integer time, String country) throws IOException{
         StringBuilder sb = new StringBuilder();
-        sb.append("{\"code\":\"").append(ticketNo).append("\"}");
+//        sb.append("{\"code\":\"").append(ticketNo).append("\"}");
+        sb.append("{\"code\":\"").append(ticketNo).append("\",\"time\":\"").append(time).append("\"}");
 
         List<NameValuePair> params = new ArrayList<>();
         params.add(new BasicNameValuePair("appid", appid));
         params.add(new BasicNameValuePair("signature", signature));
-        params.add(new BasicNameValuePair("project", project6));
+        params.add(new BasicNameValuePair("project", project7));
         params.add(new BasicNameValuePair("to", phoneno));
         params.add(new BasicNameValuePair("vars", URLEncoder.encode(sb.toString(), "UTF-8")));
 
@@ -262,6 +263,8 @@ public class SubmailClient {
 
     //申请驳回
     private static final String project6 = "F8jox2";
+    //EChain验证码
+    private static final String project7 = " k6Cqy";
 
     // 用户密钥
     private static final String signature = "9d4644811fcf9fa5a0a9f54690baf6e7";

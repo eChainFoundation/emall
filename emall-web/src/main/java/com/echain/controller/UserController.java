@@ -61,7 +61,7 @@ public class UserController {
 		int rand = (int)((Math.random()*9+1)*100000);
 		
 		try {
-			SubmailClient.sendRejectApply(phoneNumber, rand+"", country);
+			SubmailClient.sendRejectApply(phoneNumber, rand+"", 60, country);
 			return rand+"";
 		} catch(Exception e) {
 			return "0";
